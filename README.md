@@ -1,5 +1,4 @@
 
-```markdown
 # 🩺 RRGE-RAG:Radiology Report Generation Enhancement Using Hybrid Retrieval Augmented Generation
 
 ## 📌 Overview
