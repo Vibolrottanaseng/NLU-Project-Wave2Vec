@@ -1,5 +1,5 @@
 
-# 🩺 RRGE-RAG:Radiology Report Generation Enhancement Using Hybrid Retrieval Augmented Generation
+# RRGE-RAG:Radiology Report Generation Enhancement Using Hybrid Retrieval Augmented Generation
 
 ## 📌 Overview
 This project proposes a **hybrid Retrieval-Augmented Generation (RAG) framework** for automated chest X-ray report generation. The system integrates **visual features, structured clinical knowledge, and retrieved case-based evidence** to generate clinically relevant radiology reports.
@@ -8,7 +8,7 @@ The proposed approach builds upon **R2Gen** as the report generation backbone an
 
 ---
 
-📌 Research Questions
+## 📌 Research Questions
 
 RQ1:
 How does the integration of retrieval-augmented generation (RAG) influence the accuracy and clinical relevance of automated radiology report generation compared to traditional image-to-text models?
