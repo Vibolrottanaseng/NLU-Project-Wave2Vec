@@ -1,9 +1,6 @@
-Here is a **clean, professional README.md** for your GitHub proposal repository:
-
----
 
 ```markdown
-# 🩺 Radiology Report Generation using Hybrid RAG Framework
+# 🩺 RRGE-RAG:Radiology Report Generation Enhancement Using Hybrid Retrieval Augmented Generation
 
 ## 📌 Overview
 This project proposes a **hybrid Retrieval-Augmented Generation (RAG) framework** for automated chest X-ray report generation. The system integrates **visual features, structured clinical knowledge, and retrieved case-based evidence** to generate clinically relevant radiology reports.
