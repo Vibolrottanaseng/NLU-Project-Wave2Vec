@@ -1,0 +1,16 @@
+# Ignore all DICOM files
+*.dcm
+
+# Ignore all CSV files
+*.csv
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
