@@ -16,6 +16,4 @@ wheels/
 .venv
 
 # Datasets
-data/
 dataset/
-datasets/
