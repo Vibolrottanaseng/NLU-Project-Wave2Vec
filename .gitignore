@@ -14,3 +14,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Datasets
+data/
+dataset/
+datasets/
