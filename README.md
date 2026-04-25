@@ -53,6 +53,8 @@ The proposed RRGE-RAG framework follows a multimodal retrieval-augmented pipelin
 5. **Evaluation**  
    The generated reports are evaluated using lexical, clinical, and uncertainty-aware metrics.
 
+<img src="figure/proposed_method.jpg" />
+
 ## Baseline Models
 
 The proposed model is compared with several established radiology report generation baselines:
