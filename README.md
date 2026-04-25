@@ -191,3 +191,31 @@ The ablation study evaluates the contribution of labels, retrieval, and the full
 The experimental results show that RRGE-RAG achieves competitive performance across lexical, clinical, and uncertainty-aware evaluation metrics. Although the proposed method does not outperform all baseline models in every metric, it demonstrates the potential of combining retrieval, structured clinical labels, and visual features for more reliable radiology report generation.
 
 The ablation study shows that retrieval contributes positively to report generation quality, while multimodal fusion remains challenging. The uncertainty evaluation also indicates that calibration and confidence estimation are important areas for future improvement.
+
+
+``` text
+NLU-Project-Wave2Vec/
+│
+├── App/                    # Application files
+│   ├── backend/             # Backend implementation
+│   ├── frontend/            # Frontend implementation
+│   └── docs/                # Application documentation
+│
+├── Dataset/                # Dataset-related files and preprocessing resources
+├── Literature Review/      # Related work and literature review materials
+├── Outputs/                # Generated outputs and experimental results
+├── Progress/               # Progress report materials
+├── R2Gen/                  # R2Gen baseline and model implementation
+│   ├── modules/             # Model modules
+│   └── main.py              # Main training/evaluation script
+│
+├── Report/                 # Final report files
+├── figure/                 # Figures and diagrams
+├── notebook/               # Jupyter notebooks for experiments
+├── .gitignore
+└── README.md
+```
+
+
+
+
