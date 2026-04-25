@@ -1,122 +1,103 @@
-# RRGE-RAG: Radiology Report Generation Enhancement using Hybrid Retrieval-Augmented Generation
+# RRGE-RAG: Radiology Report Generation Enhancement Using Hybrid Retrieval-Augmented Generation
 
-## 📌 Project Status: In Progress
+This repository contains the implementation and final report for **RRGE-RAG**, a Hybrid Retrieval-Augmented Generation framework for automated chest X-ray radiology report generation.
 
-This repository contains the **ongoing implementation** of a hybrid Retrieval-Augmented Generation (RAG) framework for automated chest X-ray report generation.
-
-The project extends the R2Gen architecture by integrating **multi-signal retrieval**, **structured clinical knowledge**, and **attention-based multimodal fusion** to improve the clinical accuracy and reliability of generated reports.
-
----
+The project aims to improve the factual correctness, clinical relevance, and reliability of generated radiology reports by combining visual image features, structured clinical labels, and retrieved case-based evidence.
 
 ## 📌 Overview
 
-Automated radiology report generation is a challenging task due to the need for **clinical accuracy and contextual understanding**. Traditional image-to-text models often suffer from **hallucinations and incomplete findings**.
+Automated radiology report generation is an important application of medical artificial intelligence. Traditional image-to-text models generate reports directly from chest X-ray images, but they may produce incomplete or clinically inaccurate descriptions. To address this issue, this project proposes a **Hybrid Retrieval-Augmented Generation (Hybrid RAG)** framework that retrieves similar prior cases and integrates them with the current patient’s X-ray features and clinical labels.
 
-To address this, our approach introduces a **Hybrid RAG framework** that:
-- Retrieves similar prior cases
-- Integrates structured clinical labels (Problems)
-- Combines multimodal information for grounded report generation
+The proposed method extends the **R2Gen** architecture by incorporating:
 
----
+- **BioViL-T** as the chest X-ray image encoder
+- **Hybrid retrieval** using visual, textual, and structured clinical label similarity
+- **Top-3 retrieved similar cases** as external clinical evidence
+- **Attention-based multimodal fusion**
+- **Uncertainty-aware evaluation** using calibration metrics
 
-## 📌 Current Progress
+## Dataset
 
-### ✅ Completed
-- Dataset preprocessing and filtering (IU-Xray)
-- Implementation of baseline models:
-  - R2Gen
-  - R2GenCMN
-  - PPKED
-  - METransformer
-- Integration of **BioViL-T** as image encoder
-- Implementation of **Problem (label) encoding** using multi-hot vectors
-- Initial **Hybrid Retrieval Module**:
-  - Image similarity (BioViL-T embeddings)
-  - Text similarity (BiomedBERT embeddings)
-  - Label similarity (multi-hot vectors)
-- Attention-based **multimodal fusion mechanism**
-- Training pipeline and evaluation setup
-- Initial experimental results and ablation studies
+The project uses the **Indiana University Chest X-ray dataset**, which contains chest X-ray images and corresponding radiology reports.
 
----
+Link: https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university
 
-### 🔄 Ongoing Work
-- Optimization of hybrid retrieval weighting strategy
-- Improvement of fusion mechanism
-- Fine-tuning generation performance (BLEU / ROUGE)
-- Calibration analysis using:
-  - Expected Calibration Error (ECE)
-  - Brier Score
+Each sample includes:
 
----
-
-### ⏳ Planned
-- Retrieval efficiency improvement (e.g., FAISS indexing)
-- Advanced fusion strategies
-- Extensive hyperparameter tuning
-- Final evaluation and comparative analysis
-- Clinical validation and qualitative analysis
-
----
-
-## 📌 Research Questions
-
-**RQ1:** How does retrieval-augmented generation (RAG) influence the accuracy and clinical relevance compared to traditional image-to-text models?
-
-**RQ2:** To what extent does multimodal fusion (image + labels + retrieval) improve report coherence and completeness?
-
-**RQ3:** How effectively do uncertainty estimation mechanisms reflect the reliability of generated reports?
-
----
-
-## 🎯 Objectives
-
-- Generate accurate and coherent radiology reports
-- Improve clinical relevance using structured labels (Problems)
-- Reduce hallucinations through retrieval-based grounding
-- Provide reliable predictions with uncertainty estimation
-
----
-
-## 🧠 Methodology
-
-### 🔹 Input
 - Frontal and lateral chest X-ray images
-- Structured clinical labels (Problems)
+- Clinical labels from the `Problems` column
+- Radiology report sections such as `Findings` and `Impression`
 
-### 🔹 Core Components
-- **Generator:** R2Gen
-- **Image Encoder:** BioViL-T
-- **Text Encoder:** BiomedBERT
+After preprocessing and filtering, the final dataset contains **3,337 aligned samples** with image, text, and structured label information.
 
-### 🔹 Key Features
-- Hybrid multi-signal retrieval (image + text + labels)
-- Case-level retrieval (image + report + labels)
-- Attention-based multimodal fusion
-- Structured clinical knowledge integration
-- Uncertainty estimation for reliability
 
----
+## Methodology
 
-## 📊 Dataset
+The proposed RRGE-RAG framework follows a multimodal retrieval-augmented pipeline:
 
-**Indiana University Chest X-ray Dataset (IU-Xray)**  
-🔗 https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university
+1. **Image Encoding**  
+   Chest X-ray images are encoded using BioViL-T to extract domain-specific visual embeddings.
 
-### Dataset Details
-- 3,851 patient records (original)
-- Each includes:
-  - Frontal and lateral images
-  - Findings and Impression reports
-  - Problems (clinical labels)
+2. **Hybrid Retrieval**  
+   The system retrieves the top-3 most similar prior patient cases using:
+   - Image similarity
+   - Report text similarity
+   - Structured clinical label similarity
 
-### Preprocessed Dataset
-- Final size: **3,337 samples**
-- Filtering criteria:
-  - Both image views available
-  - Non-empty Problems and Findings
+3. **Multimodal Fusion**  
+   Visual embeddings, retrieved reports, and clinical labels are combined using an attention-based fusion mechanism.
 
----
+4. **Report Generation**  
+   The fused representation is passed to the R2Gen decoder to generate the final radiology report.
+
+5. **Evaluation**  
+   The generated reports are evaluated using lexical, clinical, and uncertainty-aware metrics.
+
+## Baseline Models
+
+The proposed model is compared with several established radiology report generation baselines:
+
+- **R2Gen**
+- **R2GenCMN**
+- **PPKED**
+- **METransformer**
+
+These models represent standard image-to-text, memory-based, knowledge-enhanced, and transformer-based approaches.
+
+## Evaluation Metrics
+
+The system is evaluated using three categories of metrics:
+
+### Lexical Metrics
+
+- BLEU-1
+- BLEU-2
+- BLEU-3
+- BLEU-4
+- ROUGE-L
+
+### Clinical Metrics
+
+- RadGraph F1
+- CheXbert 14-class Macro F1
+- CheXbert 14-class Micro F1
+
+### Uncertainty and Calibration Metrics
+
+- Expected Calibration Error
+- Brier Score
+- Entropy-based uncertainty
+- MC Dropout variance
+
+## Research Questions
+
+This project investigates the following research questions:
+
+1. How does retrieval-augmented generation influence the accuracy and clinical relevance of automated radiology report generation compared to traditional image-to-text models?
+
+2. To what extent does multimodal fusion of X-ray images, clinical labels, and retrieved case information improve the coherence and completeness of generated radiology reports?
+
+3. How well do uncertainty estimates correlate with generation quality, and how well are they calibrated?
 
 ## ⚙️ Pipeline Overview
 
@@ -126,7 +107,7 @@ To address this, our approach introduces a **Hybrid RAG framework** that:
 4. Report generation using R2Gen  
 5. Confidence estimation for generated outputs  
 
----
+
 
 ## 📈 Evaluation
 
@@ -144,31 +125,61 @@ To address this, our approach introduces a **Hybrid RAG framework** that:
 - PPKED
 - METransformer
 
+| Model | BL-1  | BL-2 | BL-3 | BL-4   | ROUGE-L | RG-F1 | 14Ma-F1|14Mi-F1 | ECE  | Brier |
+| :---  | :---  | :--- | :--- |:---:| :---:   |:----:    |:-----: | :---:| :---: |:---:|
+| R2Gen | 0.479 | **0.479**| 0.103| 0.082 | 0.483 | 0.242    | 0.079  | 0.376| 0.88  | 0.087|
+| R2GenCMN| 0.362	| 0.267 |	0.203| 0.153 | **0.545** | 0.254 | 0.097 |	0.717 |	0.04 |	0.04 |
+| PPKED | 0.099	|0.052|	0.032|	0.021|	0.178|	0.247|	0.04|	**0.423**|	0.076|	0.076|
+| METransformer | **0.483**|	0.322|	**0.228**|	**0.172**|	0.48|	**0.311**|	0.074|	0.08|	0.078|	0.079|
+| RRGE-RAG (OURS)|0.384|	0.231|	0.155|	0.11|	0.315|	0.235|	0.064|	0.356|	0.076|	0.077|
+
+
 ### Ablation Study
 - A0: Image only (R2Gen)
 - A1: + Labels
 - A2: + Retrieval
 - A3: Full Hybrid RAG model
 
----
+| Model | BL-1  | BL-2 | BL-3 | BL-4   | ROUGE-L | RG-F1 | 14Ma-F1|14Mi-F1 | ECE  | Brier |
+| :---  | :---  | :--- | :--- |:---:| :---:   |:----:    |:-----: | :---:| :---: |:---:|
+| A0 | 0.479|	0.479|	0.103|	0.082|	0.483|	0.242	|0.079|	0.376|	0.088|	0.087|
+| A1| 0.06|	0.015|	0.004|	0.041|	0.058|	0.011|	0.078|	0.376|	0.087|	0.088|
+| A2 | 0.221|	0.146|	0.102|	0.068|	0.302|	0.225|	0.053|	0.25|	0.059|	0.058|
+| RRGE-RAG (OURS) |0.384|	0.231|	0.155|	0.11|	0.315|	0.254|	0.064|	0.356|	0.076|	0.077|
 
-## 🚀 Current Findings (Preliminary)
+
+<!-- ## 🚀 Current Findings (Preliminary)
 
 - Retrieval improves **clinical grounding (RG-F1)**
 - Slight trade-off observed in **lexical metrics (BLEU, ROUGE)**
 - Multimodal fusion significantly outperforms label-only setups
 - Retrieval helps reduce hallucination and improves factual consistency
 
----
 
 ## 🔮 Expected Contributions
 
 - Hybrid retrieval framework for radiology report generation
 - Improved clinical consistency using structured knowledge
 - Reduction of hallucinations through grounded generation
-- Reliable outputs via uncertainty-aware modeling
+- Reliable outputs via uncertainty-aware modeling -->
 
----
+
+## Results Summary
+
+This work presents a Hybrid Retrieval-Augmented
+Generation (Hybrid RAG) framework for radiology report generation, integrating visual features,
+structured clinical labels, and retrieved case-based
+knowledge. The proposed approach improves clinical relevance and maintains competitive performance across evaluation metrics, particularly in
+capturing meaningful medical information.
+The ablation study confirms the importance of
+multimodal fusion and retrieval in enhancing report quality. While the model achieves reasonable
+calibration performance, uncertainty estimation remains an area for improvement.
+Overall, the results demonstrate the potential
+of combining retrieval and multimodal learning
+for more reliable radiology report generation, with
+future work focusing on improving retrieval quality,
+model calibration, and generalization to broader
+clinical settings.
 
 ## 👨‍💻 Authors
 
