@@ -216,6 +216,38 @@ NLU-Project-Wave2Vec/
 └── README.md
 ```
 
+## How to Run
+
+From the project root directory:
+
+```
+cd backend
+uvicorn app:app --reload
+```
+Then open:
+
+```
+http://127.0.0.1:8000/docs
+```
+
+## How to deploy
+
+``` 
+Step 1: Deploy the backend on Render and ensure the service is live
+
+Step 2: Make sure GitHub Pages is enabled for the repository
+
+Step 3: Open the frontend using the GitHub Pages link
+
+Step 4: Upload X-ray images and click Generate Report
+
+```
+
+## Authors
+ - Vibolrottana Seng (st126425)
+ - Zwe Yu Ya Kyaw Zin Oo (st125990)
+ - Dakchhyeta Bade Shrestha (st126671)
+ - Supipi Karunathilaka (st126489)
 
 
 
