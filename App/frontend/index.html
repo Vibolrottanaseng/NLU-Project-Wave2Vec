@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI X-ray Report Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Sora:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --blue-primary: #3a6bff;
+      --blue-light: #e8eeff;
+      --blue-mid: #c4d1ff;
+      --bg: #f0f4ff;
+      --card-bg: #ffffff;
+      --text-dark: #1a1f36;
+      --text-mid: #4a5280;
+      --text-light: #8892b0;
+      --border: #dde3f5;
+      --success: #22c55e;
+      --warning-bg: #fffbeb;
+      --warning-border: #fde68a;
+      --warning-text: #92400e;
+      --radius: 14px;
+      --shadow: 0 4px 24px rgba(58, 107, 255, 0.08);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text-dark);
+      min-height: 100vh;
+    }
+
+    /* ── Layout ── */
+    .page { max-width: 900px; margin: 0 auto; padding: 48px 24px 80px; }
+
+    /* ── Header ── */
+    header { text-align: center; margin-bottom: 40px; animation: fadeDown .5s ease both; }
+    .header-icon {
+      width: 52px; height: 52px; border-radius: 14px;
+      background: var(--blue-primary);
+      display: inline-flex; align-items: center; justify-content: center;
+      margin-bottom: 14px;
+    }
+    .header-icon svg { width: 28px; height: 28px; color: #fff; }
+    h1 {
+      font-family: 'Sora', sans-serif;
+      font-size: 2rem; font-weight: 700;
+      color: var(--blue-primary); margin-bottom: 10px;
+    }
+    header p { color: var(--text-mid); font-size: .95rem; max-width: 460px; margin: 0 auto; line-height: 1.6; }
+
+    /* ── Card ── */
+    .card {
+      background: var(--card-bg); border-radius: var(--radius);
+      box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 20px;
+      animation: fadeUp .5s ease both;
+    }
+    .card:nth-child(2) { animation-delay: .08s; }
+    .card:nth-child(3) { animation-delay: .16s; }
+
+    .card-title {
+      font-family: 'Sora', sans-serif;
+      font-size: 1rem; font-weight: 600;
+      color: var(--text-dark); margin-bottom: 18px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .card-title svg { color: var(--blue-primary); }
+
+    /* ── Upload area ── */
+    .upload-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 580px) { .upload-grid { grid-template-columns: 1fr; } }
+
+    .upload-label { font-size: .82rem; color: var(--text-mid); margin-bottom: 8px; display: block; }
+    .upload-label span { color: #ef4444; }
+
+    .upload-zone {
+      border: 2px dashed var(--border); border-radius: 10px;
+      background: #fafbff; cursor: pointer;
+      transition: border-color .2s, background .2s;
+      position: relative; overflow: hidden;
+      min-height: 150px; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 8px;
+    }
+    .upload-zone.active-zone { border-color: var(--blue-primary); background: var(--blue-light); }
+    .upload-zone:hover { border-color: var(--blue-primary); background: var(--blue-light); }
+    .upload-zone input[type="file"] {
+      position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;
+    }
+    .upload-zone svg { color: var(--blue-primary); width: 28px; height: 28px; }
+    .upload-zone .upload-cta { font-size: .85rem; color: var(--blue-primary); font-weight: 500; }
+    .upload-zone .upload-hint { font-size: .75rem; color: var(--text-light); }
+    .upload-zone .preview-img {
+      width: 100%; height: 100%; object-fit: contain;
+      position: absolute; inset: 0; border-radius: 8px;
+    }
+    .upload-zone .preview-overlay {
+      position: absolute; inset: 0; background: rgba(0,0,0,.45);
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0; transition: opacity .2s; border-radius: 8px; color: #fff; font-size: .8rem;
+    }
+    .upload-zone:hover .preview-overlay { opacity: 1; }
+
+    /* ── Labels ── */
+    .label-hint { font-size: .82rem; color: var(--text-light); margin-bottom: 14px; }
+    .labels-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+
+    .label-item { display: flex; align-items: center; gap: 8px; }
+    .label-item input[type="checkbox"] { display: none; }
+    .label-chip {
+      width: 100%; padding: 8px 14px; border-radius: 8px;
+      border: 1.5px solid var(--border); background: #fafbff;
+      font-size: .82rem; color: var(--text-mid);
+      cursor: pointer; user-select: none;
+      transition: all .15s; display: flex; align-items: center; gap: 6px;
+    }
+    .label-chip .check-box {
+      width: 14px; height: 14px; border-radius: 3px;
+      border: 1.5px solid var(--border); flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      transition: all .15s;
+    }
+    .label-item input:checked ~ .label-chip {
+      border-color: var(--blue-primary); background: var(--blue-light); color: var(--blue-primary); font-weight: 500;
+    }
+    .label-item input:checked ~ .label-chip .check-box {
+      background: var(--blue-primary); border-color: var(--blue-primary);
+    }
+
+    /* ── Generate button ── */
+    .btn-wrap { display: flex; justify-content: center; margin-top: 32px; animation: fadeUp .5s .24s ease both; }
+    .btn-generate {
+      background: var(--blue-primary); color: #fff;
+      border: none; border-radius: 10px;
+      padding: 14px 40px; font-size: .95rem; font-weight: 600;
+      font-family: 'Sora', sans-serif; cursor: pointer;
+      display: flex; align-items: center; gap: 8px;
+      transition: transform .15s, box-shadow .15s, background .15s;
+      box-shadow: 0 4px 16px rgba(58, 107, 255, 0.35);
+    }
+    .btn-generate:hover { background: #2d58f0; transform: translateY(-1px); box-shadow: 0 6px 24px rgba(58,107,255,.45); }
+    .btn-generate:active { transform: translateY(0); }
+    .btn-generate:disabled { opacity: .6; cursor: not-allowed; transform: none; }
+
+    /* ── RESULT PAGE ── */
+    #result-page { display: none; }
+
+    .report-header-row {
+      display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;
+    }
+    .btn-new {
+      border: 1.5px solid var(--border); background: #fff;
+      color: var(--text-mid); border-radius: 8px;
+      padding: 8px 18px; font-size: .82rem; font-weight: 500; cursor: pointer;
+      transition: border-color .15s, color .15s;
+    }
+    .btn-new:hover { border-color: var(--blue-primary); color: var(--blue-primary); }
+
+    .xray-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+    @media (max-width: 580px) { .xray-grid { grid-template-columns: 1fr; } }
+
+    .xray-panel label { font-size: .82rem; color: var(--text-mid); display: block; margin-bottom: 8px; }
+    .xray-panel .xray-img-wrap {
+      background: #000; border-radius: 10px; overflow: hidden;
+      min-height: 200px; display: flex; align-items: center; justify-content: center;
+    }
+    .xray-panel img { width: 100%; display: block; border-radius: 10px; }
+    .xray-placeholder { color: #555; font-size: .82rem; padding: 40px; text-align: center; }
+
+    /* Diagnostic box */
+    .diagnostic-box {
+      border: 1.5px solid #c6f0d4; background: #f0fdf4;
+      border-radius: 10px; padding: 22px 24px;
+    }
+    .diagnostic-title {
+      font-family: 'Sora', sans-serif; font-size: 1rem; font-weight: 600;
+      color: var(--text-dark); margin-bottom: 14px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .diagnostic-title svg { color: var(--success); }
+    .diagnostic-body { font-size: .875rem; color: var(--text-mid); line-height: 1.7; }
+    .diagnostic-body .section-label {
+      font-weight: 600; color: var(--text-dark); margin-top: 14px; margin-bottom: 4px;
+      text-transform: uppercase; font-size: .72rem; letter-spacing: .06em;
+      display: block;
+    }
+    .diagnostic-body ul { padding-left: 18px; }
+    .diagnostic-body ul li { margin-bottom: 4px; }
+    .diagnostic-body .report-date { margin-top: 16px; font-size: .8rem; color: var(--text-light); }
+
+    /* Loading */
+    .loading-box {
+      text-align: center; padding: 48px 24px;
+      display: none; flex-direction: column; align-items: center; gap: 16px;
+    }
+    .spinner {
+      width: 40px; height: 40px; border: 3px solid var(--blue-mid);
+      border-top-color: var(--blue-primary); border-radius: 50%;
+      animation: spin .8s linear infinite;
+    }
+    .loading-text { color: var(--text-mid); font-size: .9rem; }
+
+    /* Warning */
+    .warning-box {
+      background: var(--warning-bg); border: 1px solid var(--warning-border);
+      border-radius: 10px; padding: 14px 18px; margin-top: 20px;
+      font-size: .8rem; color: var(--warning-text); line-height: 1.6;
+    }
+    .warning-box strong { font-weight: 600; }
+
+    /* Animations */
+    @keyframes fadeDown { from { opacity: 0; transform: translateY(-16px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeUp   { from { opacity: 0; transform: translateY(16px);  } to { opacity: 1; transform: translateY(0); } }
+    @keyframes spin     { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER (shared) -->
+  <header>
+    <div class="header-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="3" width="20" height="18" rx="3"/><path d="M9 8h6M9 12h6M9 16h4"/>
+      </svg>
+    </div>
+    <h1>AI X-ray Report Generator</h1>
+    <p>Upload chest X-ray images and select clinical problem labels to generate a comprehensive radiology report powered by AI</p>
+  </header>
+
+  <!-- ══ MAIN PAGE ══ -->
+  <div id="main-page">
+
+    <!-- Upload card -->
+    <div class="card">
+      <div class="card-title">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>
+        </svg>
+        Upload X-ray Images
+      </div>
+      <div class="upload-grid">
+
+        <!-- Frontal -->
+        <div>
+          <label class="upload-label">Frontal X-ray <span>*</span></label>
+          <div class="upload-zone" id="frontal-zone">
+            <input type="file" id="frontal-input" accept="image/png,image/jpeg,.dcm" />
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>
+            </svg>
+            <span class="upload-cta">Click to upload frontal view</span>
+            <span class="upload-hint">PNG, JPG, DICOM up to 10MB</span>
+          </div>
+        </div>
+
+        <!-- Lateral -->
+        <div>
+          <label class="upload-label">Lateral X-ray (Optional)</label>
+          <div class="upload-zone" id="lateral-zone">
+            <input type="file" id="lateral-input" accept="image/png,image/jpeg,.dcm" />
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>
+            </svg>
+            <span class="upload-cta">Click to upload lateral view</span>
+            <span class="upload-hint">PNG, JPG, DICOM up to 10MB</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Labels card -->
+    <div class="card">
+      <div class="card-title">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+        </svg>
+        Clinical Problem Labels
+      </div>
+      <p class="label-hint">Select one or more clinical labels related to the X-ray findings</p>
+      <div class="labels-grid" id="labels-grid">
+        <!-- Chips injected by JS -->
+      </div>
+    </div>
+
+    <!-- Generate button -->
+    <div class="btn-wrap">
+      <button class="btn-generate" id="generate-btn">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="3" width="20" height="18" rx="3"/><path d="M9 8h6M9 12h6M9 16h4"/>
+        </svg>
+        Generate Report
+      </button>
+    </div>
+
+  </div><!-- /main-page -->
+
+  <!-- ══ RESULT PAGE ══ -->
+  <div id="result-page">
+    <div class="card">
+
+      <div class="report-header-row">
+        <div class="card-title" style="margin-bottom:0">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:#22c55e">
+            <rect x="2" y="3" width="20" height="18" rx="3"/><path d="M9 8h6M9 12h6M9 16h4"/>
+          </svg>
+          Radiology Report
+        </div>
+        <button class="btn-new" id="new-analysis-btn">New Analysis</button>
+      </div>
+
+      <!-- X-ray previews -->
+      <div class="xray-grid" style="margin-top:18px">
+        <div class="xray-panel">
+          <label>Frontal View</label>
+          <div class="xray-img-wrap" id="result-frontal-wrap">
+            <span class="xray-placeholder">No image uploaded</span>
+          </div>
+        </div>
+        <div class="xray-panel">
+          <label>Lateral View</label>
+          <div class="xray-img-wrap" id="result-lateral-wrap">
+            <span class="xray-placeholder">Not provided</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Loading indicator -->
+      <div class="loading-box" id="loading-box" style="display:flex">
+        <div class="spinner"></div>
+        <p class="loading-text">Analyzing X-ray images and generating report…</p>
+      </div>
+
+      <!-- Diagnostic output -->
+      <div class="diagnostic-box" id="diagnostic-box" style="display:none">
+        <div class="diagnostic-title">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+          </svg>
+          Diagnostic Analysis
+        </div>
+        <div class="diagnostic-body" id="diagnostic-body">
+          <!-- Populated by model output -->
+        </div>
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="warning-box">
+        <strong>Note:</strong> This is an AI-generated report for educational and reference purposes.
+        Always consult with a qualified radiologist or healthcare professional for accurate diagnosis and treatment decisions.
+      </div>
+
+    </div>
+  </div><!-- /result-page -->
+
+</div><!-- /page -->
+
+<script>
+  /* ────────── State ────────── */
+  const state = {
+    frontalFile: null,
+    lateralFile: null,
+    frontalDataUrl: null,
+    lateralDataUrl: null,
+  };
+
+  /* ────────── Label list ────────── */
+  const LABELS = [
+    'Atelectasis','Cardiomegaly','Consolidation','Edema','Effusion',
+    'Emphysema','Fibrosis','Hernia','Infiltration','Mass',
+    'Nodule','Pleural Thickening','Pneumonia','Pneumothorax','No Finding'
+  ];
+
+  const labelsGrid = document.getElementById('labels-grid');
+  LABELS.forEach(label => {
+    const id = 'lbl-' + label.replace(/\s+/g,'-').toLowerCase();
+    labelsGrid.insertAdjacentHTML('beforeend', `
+      <label class="label-item">
+        <input type="checkbox" id="${id}" value="${label}" />
+        <span class="label-chip">
+          <span class="check-box">
+            <svg width="9" height="9" viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="2 6 5 9 10 3"/>
+            </svg>
+          </span>
+          ${label}
+        </span>
+      </label>`);
+  });
+
+  /* ────────── Upload preview ────────── */
+  function setupUpload(inputId, zoneId, stateKey, dataUrlKey) {
+    const input = document.getElementById(inputId);
+    const zone  = document.getElementById(zoneId);
+
+    input.addEventListener('change', () => {
+      const file = input.files[0];
+      if (!file) return;
+      state[stateKey] = file;
+      const reader = new FileReader();
+      reader.onload = e => {
+        state[dataUrlKey] = e.target.result;
+        // Clear old preview
+        zone.querySelectorAll('.preview-img, .preview-overlay').forEach(el => el.remove());
+        const img = document.createElement('img');
+        img.src = e.target.result;
+        img.className = 'preview-img';
+        zone.appendChild(img);
+        const overlay = document.createElement('div');
+        overlay.className = 'preview-overlay';
+        overlay.textContent = 'Click to replace';
+        zone.appendChild(overlay);
+        zone.querySelector('svg').style.display = 'none';
+        zone.querySelector('.upload-cta').style.display = 'none';
+        zone.querySelector('.upload-hint').style.display = 'none';
+      };
+      reader.readAsDataURL(file);
+    });
+  }
+
+  setupUpload('frontal-input', 'frontal-zone', 'frontalFile', 'frontalDataUrl');
+  setupUpload('lateral-input', 'lateral-zone', 'lateralFile', 'lateralDataUrl');
+
+  /* ────────── Helpers ────────── */
+  function getSelectedLabels() {
+    return [...document.querySelectorAll('#labels-grid input:checked')].map(el => el.value);
+  }
+
+  function showPage(page) {
+    document.getElementById('main-page').style.display   = page === 'main'   ? '' : 'none';
+    document.getElementById('result-page').style.display = page === 'result' ? '' : 'none';
+  }
+
+  /* ────────── Populate result images ────────── */
+  function populateResultImages() {
+    const fw = document.getElementById('result-frontal-wrap');
+    fw.innerHTML = state.frontalDataUrl
+      ? `<img src="${state.frontalDataUrl}" alt="Frontal X-ray" />`
+      : `<span class="xray-placeholder">No image uploaded</span>`;
+
+    const lw = document.getElementById('result-lateral-wrap');
+    lw.innerHTML = state.lateralDataUrl
+      ? `<img src="${state.lateralDataUrl}" alt="Lateral X-ray" />`
+      : `<span class="xray-placeholder">Not provided</span>`;
+  }
+
+  /* ────────── Render report ────────── */
+  function renderReport(modelOutput) {
+    /*
+     * modelOutput can be either:
+     *   1. A plain string  → rendered as-is inside a <p>
+     *   2. A structured object (see schema below) → rendered with sections
+     *
+     * Expected object schema (all fields optional):
+     * {
+     *   summary: "Based on the analysis …",
+     *   findings: [{ label: "Pneumonia", detail: "Findings consistent with …" }],
+     *   impression: "The radiological examination reveals …",
+     *   recommendations: ["Follow-up imaging …", "…"],
+     *   labels: ["Pneumonia"]            // detected labels (override)
+     * }
+     *
+     * If your model returns JSON, parse it before calling renderReport().
+     * If it returns free text, just pass the string.
+     */
+    const body = document.getElementById('diagnostic-body');
+    body.innerHTML = '';
+
+    if (typeof modelOutput === 'string') {
+      body.innerHTML = `<p>${modelOutput.replace(/\n/g, '<br/>')}</p>
+        <span class="report-date">Report generated on: ${new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})}</span>`;
+      return;
+    }
+
+    const o = modelOutput;
+    let html = '';
+
+    if (o.summary)
+      html += `<p>${o.summary}</p>`;
+
+    if (o.findings?.length) {
+      html += `<span class="section-label">Clinical Findings:</span><ul>`;
+      o.findings.forEach(f => { html += `<li><strong>${f.label}:</strong> ${f.detail}</li>`; });
+      html += `</ul>`;
+    }
+
+    if (o.impression)
+      html += `<span class="section-label">Impression:</span><p>${o.impression}</p>`;
+
+    if (o.recommendations?.length) {
+      html += `<span class="section-label">Recommendations:</span><ul>`;
+      o.recommendations.forEach(r => { html += `<li>${r}</li>`; });
+      html += `</ul>`;
+    }
+
+    html += `<p class="report-date">Report generated on: ${new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})}</p>`;
+    body.innerHTML = html;
+  }
+
+  /* ────────── Call your model ────────── */
+  /*
+   * INTEGRATION POINT
+   * Replace the body of callModel() with your actual model API call.
+   *
+   * It receives:
+   *   frontalDataUrl  – base64 data URL of the frontal X-ray (or null)
+   *   lateralDataUrl  – base64 data URL of the lateral X-ray  (or null)
+   *   labels          – array of selected label strings
+   *
+   * It must return either:
+   *   • A plain string (free-text report)
+   *   • A structured object matching the schema described in renderReport()
+   *
+   * The stub below returns a mock structured response for UI testing.
+   */
+  async function callModel(frontalDataUrl, lateralDataUrl, labels) {
+  const formData = new FormData();
+
+  if (state.frontalFile) {
+    formData.append("frontal", state.frontalFile);
+  }
+
+  if (state.lateralFile) {
+    formData.append("lateral", state.lateralFile);
+  }
+
+  formData.append("problems", JSON.stringify(labels));
+
+  const res = await fetch("https://xray-report-backend.onrender.com/generate-report", {
+    method: "POST",
+    body: formData
+  });
+
+  if (!res.ok) {
+    throw new Error("Backend error: " + res.status);
+  }
+
+  const data = await res.json();
+
+  if (data.error) {
+    throw new Error(data.error);
+  }
+
+  return {
+    summary: "AI generated draft radiology report based on the uploaded X-ray image.",
+    findings: [
+      {
+        label: "Generated Report",
+        detail: data.generated_report
+      },
+      {
+        label: "Selected Problem Labels",
+        detail: data.selected_problems && data.selected_problems.length
+          ? data.selected_problems.join(", ")
+          : "No labels selected"
+      }
+    ],
+    impression: data.reference_report
+      ? "Reference report: " + data.reference_report
+      : "No reference report available.",
+    recommendations: [
+      "This is a research prototype and not a clinical diagnosis.",
+      "A qualified radiologist should review the result."
+    ]
+  };
+}
+
+  /* ────────── Generate button ────────── */
+  document.getElementById('generate-btn').addEventListener('click', async () => {
+    if (!state.frontalFile) {
+      alert('Please upload a frontal X-ray image before generating the report.');
+      return;
+    }
+
+    // Switch to result page, show loading
+    showPage('result');
+    populateResultImages();
+    document.getElementById('loading-box').style.display  = 'flex';
+    document.getElementById('diagnostic-box').style.display = 'none';
+
+    try {
+      const output = await callModel(state.frontalDataUrl, state.lateralDataUrl, getSelectedLabels());
+      renderReport(output);
+    } catch (err) {
+      renderReport(`Error generating report: ${err.message}. Please try again.`);
+    } finally {
+      document.getElementById('loading-box').style.display  = 'none';
+      document.getElementById('diagnostic-box').style.display = '';
+    }
+  });
+
+  /* ────────── New Analysis ────────── */
+  document.getElementById('new-analysis-btn').addEventListener('click', () => {
+    showPage('main');
+  });
+
+  /* ────────── Init ────────── */
+  showPage('main');
+</script>
+</body>
+</html>
