@@ -20,3 +20,5 @@ dataset/raw/
 R2Gen/data/iu_xray
 
 A0_Ablation/results/iu_xray_test/
+
+R2GenCMN/data/
