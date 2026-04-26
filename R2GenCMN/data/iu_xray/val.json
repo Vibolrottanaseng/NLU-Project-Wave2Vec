@@ -1,0 +1,3514 @@
+[
+    {
+        "id": "1320",
+        "image_path": [
+            "1320_IM-0207-1001.dcm.png",
+            "1320_IM-0207-2001.dcm.png"
+        ],
+        "report": "low lung volumes. no acute pulmonary disease."
+    },
+    {
+        "id": "3239",
+        "image_path": [
+            "3239_IM-1534-1001.dcm.png",
+            "3239_IM-1534-2001.dcm.png"
+        ],
+        "report": "no acute preoperative findings."
+    },
+    {
+        "id": "1124",
+        "image_path": [
+            "1124_IM-0081-2001.dcm.png",
+            "1124_IM-0081-3001.dcm.png"
+        ],
+        "report": "1. no focal airspace consolidation. 2. hyperexpanded lungs, suggestive of obstructive lung disease."
+    },
+    {
+        "id": "3593",
+        "image_path": [
+            "3593_IM-1772-1001.dcm.png",
+            "3593_IM-1772-2001.dcm.png"
+        ],
+        "report": "normal chest"
+    },
+    {
+        "id": "233",
+        "image_path": [
+            "233_IM-0899-1001.dcm.png",
+            "233_IM-0899-2001.dcm.png"
+        ],
+        "report": "1. densities in left base may be compatible with scarring or subsegmental atelectasis 2. abnormal opacity in the right base due at in part to atelectasis with right hemidiaphragm eventration, question small right pleural effusion"
+    },
+    {
+        "id": "3125",
+        "image_path": [
+            "3125_IM-1469-1001.dcm.png",
+            "3125_IM-1469-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "2833",
+        "image_path": [
+            "2833_IM-1249-1001.dcm.png",
+            "2833_IM-1249-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease."
+    },
+    {
+        "id": "2652",
+        "image_path": [
+            "2652_IM-1136-1001.dcm.png",
+            "2652_IM-1136-3003.dcm.png"
+        ],
+        "report": "1. no acute pulmonary disease."
+    },
+    {
+        "id": "1660",
+        "image_path": [
+            "1660_IM-0436-1001.dcm.png",
+            "1660_IM-0436-2002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality.."
+    },
+    {
+        "id": "937",
+        "image_path": [
+            "937_IM-2433-1001.dcm.png",
+            "937_IM-2433-2001.dcm.png"
+        ],
+        "report": "unremarkable 2 views of the chest."
+    },
+    {
+        "id": "3010",
+        "image_path": [
+            "3010_IM-1389-1001.dcm.png",
+            "3010_IM-1389-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "1849",
+        "image_path": [
+            "1849_IM-0550-1001.dcm.png",
+            "1849_IM-0550-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "3477",
+        "image_path": [
+            "3477_IM-1690-3001.dcm.png",
+            "3477_IM-1690-2001.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "3947",
+        "image_path": [
+            "3947_IM-2016-1001.dcm.png",
+            "3947_IM-2016-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease."
+    },
+    {
+        "id": "2240",
+        "image_path": [
+            "2240_IM-0838-1001.dcm.png",
+            "2240_IM-0838-1002.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "1388",
+        "image_path": [
+            "1388_IM-0246-1001.dcm.png",
+            "1388_IM-0246-2001.dcm.png"
+        ],
+        "report": "low lung volumes, otherwise clear."
+    },
+    {
+        "id": "464",
+        "image_path": [
+            "464_IM-2092-12012.dcm.png",
+            "464_IM-2092-3003.dcm.png"
+        ],
+        "report": "1. no evidence of active disease."
+    },
+    {
+        "id": "1086",
+        "image_path": [
+            "1086_IM-0059-1001.dcm.png",
+            "1086_IM-0059-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "3795",
+        "image_path": [
+            "3795_IM-1909-1001.dcm.png",
+            "3795_IM-1909-2001.dcm.png"
+        ],
+        "report": "no acute changes from prior imaging."
+    },
+    {
+        "id": "366",
+        "image_path": [
+            "366_IM-1820-1001.dcm.png",
+            "366_IM-1820-2001.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "344",
+        "image_path": [
+            "344_IM-1664-1001.dcm.png",
+            "344_IM-1664-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "225",
+        "image_path": [
+            "225_IM-0844-1001.dcm.png",
+            "225_IM-0844-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormalities.."
+    },
+    {
+        "id": "1688",
+        "image_path": [
+            "1688_IM-0450-1001.dcm.png",
+            "1688_IM-0450-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "75",
+        "image_path": [
+            "75_IM-2303-1001.dcm.png",
+            "75_IM-2303-2001.dcm.png"
+        ],
+        "report": "1. changes of emphysema and left lower lobe scarring, both stable. 2. unchanged degenerative and atherosclerotic changes of the thoracic aorta."
+    },
+    {
+        "id": "2135",
+        "image_path": [
+            "2135_IM-0757-1001.dcm.png",
+            "2135_IM-0757-3003.dcm.png"
+        ],
+        "report": "1. unchanged cardiomegaly. 2. question pleural effusions."
+    },
+    {
+        "id": "1826",
+        "image_path": [
+            "1826_IM-0535-0001.dcm.png",
+            "1826_IM-0535-1001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary abnormalities. 2. normal chest radiograph."
+    },
+    {
+        "id": "2469",
+        "image_path": [
+            "2469_IM-0999-1001.dcm.png",
+            "2469_IM-0999-3001.dcm.png"
+        ],
+        "report": "no acute pulmonary disease."
+    },
+    {
+        "id": "3856",
+        "image_path": [
+            "3856_IM-1951-1001.dcm.png",
+            "3856_IM-1951-2001.dcm.png"
+        ],
+        "report": "normal chest xray."
+    },
+    {
+        "id": "1050",
+        "image_path": [
+            "1050_IM-0038-4004.dcm.png",
+            "1050_IM-0038-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality. mild nonspecific prominence of mediastinum, consider repeat cxr if any concern for vascular process."
+    },
+    {
+        "id": "1054",
+        "image_path": [
+            "1054_IM-0040-1001.dcm.png",
+            "1054_IM-0040-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3605",
+        "image_path": [
+            "3605_IM-1781-1001.dcm.png",
+            "3605_IM-1781-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings. specifically, no evidence of pleural effusion or hilar or mediastinal adenopathy."
+    },
+    {
+        "id": "1484",
+        "image_path": [
+            "1484_IM-0313-1001.dcm.png",
+            "1484_IM-0313-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3910",
+        "image_path": [
+            "3910_IM-1987-1001.dcm.png",
+            "3910_IM-1987-2001.dcm.png"
+        ],
+        "report": "negative for acute cardiopulmonary findings."
+    },
+    {
+        "id": "1779",
+        "image_path": [
+            "1779_IM-0509-1001.dcm.png",
+            "1779_IM-0509-1002.dcm.png"
+        ],
+        "report": "normal chest"
+    },
+    {
+        "id": "254",
+        "image_path": [
+            "254_IM-1051-1001.dcm.png",
+            "254_IM-1051-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary finding."
+    },
+    {
+        "id": "2590",
+        "image_path": [
+            "2590_IM-1083-1001.dcm.png",
+            "2590_IM-1083-2001.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "910",
+        "image_path": [
+            "910_IM-2416-2001.dcm.png",
+            "910_IM-2416-1001.dcm.png"
+        ],
+        "report": "cardiomegaly without superimposed acute disease noted."
+    },
+    {
+        "id": "3286",
+        "image_path": [
+            "3286_IM-1567-1001.dcm.png",
+            "3286_IM-1567-2001.dcm.png"
+        ],
+        "report": "hypoinflation with cardiomegaly and pulmonary venous hypertension. left mid lung focal atelectasis."
+    },
+    {
+        "id": "1967",
+        "image_path": [
+            "1967_IM-0629-1001.dcm.png",
+            "1967_IM-0629-3001.dcm.png"
+        ],
+        "report": "1. opacities in the lingula. the appearance scarring or atelectasis. since the earlier study."
+    },
+    {
+        "id": "1576",
+        "image_path": [
+            "1576_IM-0375-1001.dcm.png",
+            "1576_IM-0375-2001.dcm.png"
+        ],
+        "report": "no visible active cardiopulmonary disease."
+    },
+    {
+        "id": "3075",
+        "image_path": [
+            "3075_IM-1436-1001.dcm.png",
+            "3075_IM-1436-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "3387",
+        "image_path": [
+            "3387_IM-1633-1001.dcm.png",
+            "3387_IM-1633-2001.dcm.png"
+        ],
+        "report": "minimal right basilar airspace disease, right middle lobe."
+    },
+    {
+        "id": "2355",
+        "image_path": [
+            "2355_IM-0919-1001.dcm.png",
+            "2355_IM-0919-2001.dcm.png"
+        ],
+        "report": "low lung volumes with crowding. mild left base atelectasis."
+    },
+    {
+        "id": "907",
+        "image_path": [
+            "907_IM-2412-82526002.dcm.png",
+            "907_IM-2412-82526003.dcm.png"
+        ],
+        "report": "no evidence of active disease."
+    },
+    {
+        "id": "1411",
+        "image_path": [
+            "1411_IM-0261-0001-0001.dcm.png",
+            "1411_IM-0261-0001-0002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process.."
+    },
+    {
+        "id": "1956",
+        "image_path": [
+            "1956_IM-0623-1001.dcm.png",
+            "1956_IM-0623-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3469",
+        "image_path": [
+            "3469_IM-1685-1001.dcm.png",
+            "3469_IM-1685-2001.dcm.png"
+        ],
+        "report": "chronic changes with no acute cardiopulmonary disease."
+    },
+    {
+        "id": "1074",
+        "image_path": [
+            "1074_IM-0054-1001.dcm.png",
+            "1074_IM-0054-2001.dcm.png"
+        ],
+        "report": "low lung volumes. no acute cardiopulmonary findings."
+    },
+    {
+        "id": "645",
+        "image_path": [
+            "645_IM-2224-1001.dcm.png",
+            "645_IM-2224-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3681",
+        "image_path": [
+            "3681_IM-1833-0001-0002.dcm.png",
+            "3681_IM-1833-0001-0001.dcm.png"
+        ],
+        "report": "no acute abnormality identified."
+    },
+    {
+        "id": "664",
+        "image_path": [
+            "664_IM-2240-1001.dcm.png",
+            "664_IM-2240-2001.dcm.png"
+        ],
+        "report": "no acute radiographic cardiopulmonary process."
+    },
+    {
+        "id": "3417",
+        "image_path": [
+            "3417_IM-1652-1001.dcm.png",
+            "3417_IM-1652-2001.dcm.png"
+        ],
+        "report": "no focal lung consolidation. copd."
+    },
+    {
+        "id": "2300",
+        "image_path": [
+            "2300_IM-0881-1001.dcm.png",
+            "2300_IM-0881-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormalities.."
+    },
+    {
+        "id": "1528",
+        "image_path": [
+            "1528_IM-0341-1001.dcm.png",
+            "1528_IM-0341-2001.dcm.png"
+        ],
+        "report": "1. no acute radiographic cardiopulmonary process."
+    },
+    {
+        "id": "682",
+        "image_path": [
+            "682_IM-2253-1001.dcm.png",
+            "682_IM-2253-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary disease 2. no suspicious pulmonary nodules or masses. no evidence of disease recurrence."
+    },
+    {
+        "id": "3271",
+        "image_path": [
+            "3271_IM-1552-1001.dcm.png",
+            "3271_IM-1552-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "2742",
+        "image_path": [
+            "2742_IM-1197-1001.dcm.png",
+            "2742_IM-1197-2001.dcm.png"
+        ],
+        "report": "no acute findings."
+    },
+    {
+        "id": "2033",
+        "image_path": [
+            "2033_IM-0678-1001.dcm.png",
+            "2033_IM-0678-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "3855",
+        "image_path": [
+            "3855_IM-1950-1001.dcm.png",
+            "3855_IM-1950-2001.dcm.png"
+        ],
+        "report": "multiple pulmonary nodules consistent with metastases. chest, abdomen, and pelvis ct with contrast would be helpful for further evaluation."
+    },
+    {
+        "id": "1223",
+        "image_path": [
+            "1223_IM-0150-1001.dcm.png",
+            "1223_IM-0150-2001.dcm.png"
+        ],
+        "report": "no evidence of active disease."
+    },
+    {
+        "id": "54",
+        "image_path": [
+            "54_IM-2145-1001.dcm.png",
+            "54_IM-2145-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3623",
+        "image_path": [
+            "3623_IM-1793-1001.dcm.png",
+            "3623_IM-1793-1002.dcm.png"
+        ],
+        "report": "no active disease."
+    },
+    {
+        "id": "396",
+        "image_path": [
+            "396_IM-2024-2002.dcm.png",
+            "396_IM-2024-3003.dcm.png"
+        ],
+        "report": "no evidence of active disease."
+    },
+    {
+        "id": "1668",
+        "image_path": [
+            "1668_IM-0441-1001.dcm.png",
+            "1668_IM-0441-1002.dcm.png"
+        ],
+        "report": "1. negative for acute cardiopulmonary disease. 2. 1.4 cm right lower lobe nodule, calcified granulomas disease. if patient high for pulmonary malignancy, consider cross-sectional imaging to verify."
+    },
+    {
+        "id": "2553",
+        "image_path": [
+            "2553_IM-1059-1001.dcm.png",
+            "2553_IM-1059-2001.dcm.png"
+        ],
+        "report": "no evidence of active disease."
+    },
+    {
+        "id": "2106",
+        "image_path": [
+            "2106_IM-0736-1001.dcm.png",
+            "2106_IM-0736-1002.dcm.png"
+        ],
+        "report": "no active disease."
+    },
+    {
+        "id": "990",
+        "image_path": [
+            "990_IM-2476-1001.dcm.png",
+            "990_IM-2476-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "616",
+        "image_path": [
+            "616_IM-2200-1001.dcm.png",
+            "616_IM-2200-3001.dcm.png"
+        ],
+        "report": "no acute pulmonary findings.."
+    },
+    {
+        "id": "2159",
+        "image_path": [
+            "2159_IM-0776-1001.dcm.png",
+            "2159_IM-0776-2001.dcm.png"
+        ],
+        "report": "1. no acute pulmonary abnormality."
+    },
+    {
+        "id": "842",
+        "image_path": [
+            "842_IM-2366-1001.dcm.png",
+            "842_IM-2366-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "2890",
+        "image_path": [
+            "2890_IM-1293-8001.dcm.png",
+            "2890_IM-1293-22001.dcm.png"
+        ],
+        "report": "1. no acute radiographic cardiopulmonary process."
+    },
+    {
+        "id": "3081",
+        "image_path": [
+            "3081_IM-1440-1001.dcm.png",
+            "3081_IM-1440-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "746",
+        "image_path": [
+            "746_IM-2300-3001.dcm.png",
+            "746_IM-2300-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3601",
+        "image_path": [
+            "3601_IM-1777-2002.dcm.png",
+            "3601_IM-1777-3003.dcm.png"
+        ],
+        "report": "1. large hiatal hernia. 2. clear lungs."
+    },
+    {
+        "id": "440",
+        "image_path": [
+            "440_IM-2078-5005.dcm.png",
+            "440_IM-2078-1001.dcm.png"
+        ],
+        "report": "emphysema without acute cardiopulmonary findings."
+    },
+    {
+        "id": "2038",
+        "image_path": [
+            "2038_IM-0682-1001.dcm.png",
+            "2038_IM-0682-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary finding."
+    },
+    {
+        "id": "2030",
+        "image_path": [
+            "2030_IM-0675-1001.dcm.png",
+            "2030_IM-0675-2001.dcm.png"
+        ],
+        "report": "copd. no acute pulmonary disease."
+    },
+    {
+        "id": "1292",
+        "image_path": [
+            "1292_IM-0191-1001.dcm.png",
+            "1292_IM-0191-2001.dcm.png"
+        ],
+        "report": "1. borderline enlarged heart. 2. tortuous/ectatic thoracic aorta. 3. fracture of the distal right clavicle, better seen on today s radiograph of the shoulder."
+    },
+    {
+        "id": "3080",
+        "image_path": [
+            "3080_IM-1440-1001.dcm.png",
+            "3080_IM-1440-1002.dcm.png"
+        ],
+        "report": "bullous disease and upper lobe scars. decreasing right upper lobe cavity."
+    },
+    {
+        "id": "2863",
+        "image_path": [
+            "2863_IM-1271-3001.dcm.png",
+            "2863_IM-1271-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3867",
+        "image_path": [
+            "3867_IM-1960-1001.dcm.png",
+            "3867_IM-1960-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "1345",
+        "image_path": [
+            "1345_IM-0223-1001.dcm.png",
+            "1345_IM-0223-2001.dcm.png"
+        ],
+        "report": "normal chest"
+    },
+    {
+        "id": "103",
+        "image_path": [
+            "103_IM-0023-1001.dcm.png",
+            "103_IM-0023-2001.dcm.png"
+        ],
+        "report": "prominence of the mediastinal contour near the right hilum possibly representing the ascending aorta or mediastinal lymphadenopathy. ct chest with contrast may be helpful for further evaluation."
+    },
+    {
+        "id": "310",
+        "image_path": [
+            "310_IM-1451-0001-0001.dcm.png",
+            "310_IM-1451-0001-0002.dcm.png"
+        ],
+        "report": "1. no radiographic evidence of acute thoracic."
+    },
+    {
+        "id": "3386",
+        "image_path": [
+            "3386_IM-1633-1001.dcm.png",
+            "3386_IM-1633-2001.dcm.png"
+        ],
+        "report": "normal chest -"
+    },
+    {
+        "id": "3111",
+        "image_path": [
+            "3111_IM-1461-1001.dcm.png",
+            "3111_IM-1461-2001.dcm.png"
+        ],
+        "report": "stable cardiomegaly and mild bilateral interstitial opacities which represent mild pulmonary edema."
+    },
+    {
+        "id": "3672",
+        "image_path": [
+            "3672_IM-1828-1001.dcm.png",
+            "3672_IM-1828-2001.dcm.png"
+        ],
+        "report": "mild interstitial edema."
+    },
+    {
+        "id": "2518",
+        "image_path": [
+            "2518_IM-1036-1001.dcm.png",
+            "2518_IM-1036-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1460",
+        "image_path": [
+            "1460_IM-0298-1001.dcm.png",
+            "1460_IM-0298-2001.dcm.png"
+        ],
+        "report": "negative chest -."
+    },
+    {
+        "id": "2328",
+        "image_path": [
+            "2328_IM-0898-1001.dcm.png",
+            "2328_IM-0898-2001.dcm.png"
+        ],
+        "report": "no acute abnormality."
+    },
+    {
+        "id": "2457",
+        "image_path": [
+            "2457_IM-0989-1001.dcm.png",
+            "2457_IM-0989-2001.dcm.png"
+        ],
+        "report": "unremarkable radiographs of the chest."
+    },
+    {
+        "id": "1990",
+        "image_path": [
+            "1990_IM-0648-1001.dcm.png",
+            "1990_IM-0648-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary disease. 2. stable mild cardiomegaly. 3. prominent central vasculature."
+    },
+    {
+        "id": "585",
+        "image_path": [
+            "585_IM-2181-1001.dcm.png",
+            "585_IM-2181-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "639",
+        "image_path": [
+            "639_IM-2218-1001.dcm.png",
+            "639_IM-2218-2001.dcm.png"
+        ],
+        "report": "no evidence of active disease."
+    },
+    {
+        "id": "2920",
+        "image_path": [
+            "2920_IM-1323-1001.dcm.png",
+            "2920_IM-1323-2001.dcm.png"
+        ],
+        "report": "no active disease."
+    },
+    {
+        "id": "2579",
+        "image_path": [
+            "2579_IM-1078-1001.dcm.png",
+            "2579_IM-1078-2001.dcm.png"
+        ],
+        "report": "negative for acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "2560",
+        "image_path": [
+            "2560_IM-1064-1001.dcm.png",
+            "2560_IM-1064-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3794",
+        "image_path": [
+            "3794_IM-1908-1001.dcm.png",
+            "3794_IM-1908-1002.dcm.png"
+        ],
+        "report": "1. 6 mm left lung nodular opacity. recommend comparison with prior images. if prior images are not available than further evaluation with ct chest is recommended. old chest film from / from was reviewed and the questionable nodule was not seen."
+    },
+    {
+        "id": "3996",
+        "image_path": [
+            "3996_IM-2047-1001.dcm.png",
+            "3996_IM-2047-3001.dcm.png"
+        ],
+        "report": "clear lungs. no acute cardiopulmonary abnormality.."
+    },
+    {
+        "id": "255",
+        "image_path": [
+            "255_IM-1058-1001.dcm.png",
+            "255_IM-1058-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease."
+    },
+    {
+        "id": "1170",
+        "image_path": [
+            "1170_IM-0115-2001.dcm.png",
+            "1170_IM-0115-1001.dcm.png"
+        ],
+        "report": "mild cardiomegaly."
+    },
+    {
+        "id": "886",
+        "image_path": [
+            "886_IM-2400-1001.dcm.png",
+            "886_IM-2400-1002.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "3918",
+        "image_path": [
+            "3918_IM-1992-1001.dcm.png",
+            "3918_IM-1992-2001.dcm.png"
+        ],
+        "report": "hyperinflated lungs, air trapping versus inspiratory."
+    },
+    {
+        "id": "3625",
+        "image_path": [
+            "3625_IM-1794-1001.dcm.png",
+            "3625_IM-1794-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease."
+    },
+    {
+        "id": "1966",
+        "image_path": [
+            "1966_IM-0629-1001.dcm.png",
+            "1966_IM-0629-1002.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "3588",
+        "image_path": [
+            "3588_IM-1766-1001.dcm.png",
+            "3588_IM-1766-2001.dcm.png"
+        ],
+        "report": "1. no acute pulmonary disease."
+    },
+    {
+        "id": "554",
+        "image_path": [
+            "554_IM-2155-1001.dcm.png",
+            "554_IM-2155-2001.dcm.png"
+        ],
+        "report": "negative."
+    },
+    {
+        "id": "1884",
+        "image_path": [
+            "1884_IM-0573-1001.dcm.png",
+            "1884_IM-0573-12012.dcm.png"
+        ],
+        "report": "1. prominent mediastinum. may be due to mediastinal fat. comparison films, if available, would be useful to determine if this is a chronic appearance. 2. clear lungs."
+    },
+    {
+        "id": "2147",
+        "image_path": [
+            "2147_IM-0767-1001.dcm.png",
+            "2147_IM-0767-2001.dcm.png"
+        ],
+        "report": "no acute findings."
+    },
+    {
+        "id": "2792",
+        "image_path": [
+            "2792_IM-1226-1001.dcm.png",
+            "2792_IM-1226-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormalities."
+    },
+    {
+        "id": "1928",
+        "image_path": [
+            "1928_IM-0600-1001.dcm.png",
+            "1928_IM-0600-2001.dcm.png"
+        ],
+        "report": "no acute findings."
+    },
+    {
+        "id": "2645",
+        "image_path": [
+            "2645_IM-1131-2001.dcm.png",
+            "2645_IM-1131-1001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1893",
+        "image_path": [
+            "1893_IM-0580-1001.dcm.png",
+            "1893_IM-0580-2001.dcm.png"
+        ],
+        "report": "stable appearance of the chest without focal air space disease."
+    },
+    {
+        "id": "3305",
+        "image_path": [
+            "3305_IM-1581-4001.dcm.png",
+            "3305_IM-1581-1001.dcm.png"
+        ],
+        "report": "1. streaky bibasilar opacities; the appearance subsegmental atelectasis. 2. enlarged cardiac silhouette. 3. mildly elevated right hemidiaphragm."
+    },
+    {
+        "id": "3228",
+        "image_path": [
+            "3228_IM-1526-1001.dcm.png",
+            "3228_IM-1526-2001.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "2098",
+        "image_path": [
+            "2098_IM-0728-1001.dcm.png",
+            "2098_IM-0728-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "1470",
+        "image_path": [
+            "1470_IM-0303-1001.dcm.png",
+            "1470_IM-0303-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "568",
+        "image_path": [
+            "568_IM-2168-1001.dcm.png",
+            "568_IM-2168-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary finding."
+    },
+    {
+        "id": "3826",
+        "image_path": [
+            "3826_IM-1932-1001.dcm.png",
+            "3826_IM-1932-2001.dcm.png"
+        ],
+        "report": "negative for acute cardiopulmonary findings."
+    },
+    {
+        "id": "2288",
+        "image_path": [
+            "2288_IM-0872-1001.dcm.png",
+            "2288_IM-0872-1002.dcm.png"
+        ],
+        "report": "1. clear lungs. no radiographic evidence of active tb."
+    },
+    {
+        "id": "1032",
+        "image_path": [
+            "1032_IM-0026-1001-0002.dcm.png",
+            "1032_IM-0026-1001-0001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "2620",
+        "image_path": [
+            "2620_IM-1109-1001.dcm.png",
+            "2620_IM-1109-2001.dcm.png"
+        ],
+        "report": "no evidence of acute cardiopulmonary process."
+    },
+    {
+        "id": "3633",
+        "image_path": [
+            "3633_IM-1800-1001.dcm.png",
+            "3633_IM-1800-1002.dcm.png"
+        ],
+        "report": "unremarkable examination of the chest."
+    },
+    {
+        "id": "2965",
+        "image_path": [
+            "2965_IM-1358-1001.dcm.png",
+            "2965_IM-1358-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings. specifically, no radiographic evidence of tuberculosis."
+    },
+    {
+        "id": "2589",
+        "image_path": [
+            "2589_IM-1083-1001.dcm.png",
+            "2589_IM-1083-2001.dcm.png"
+        ],
+        "report": "no acute radiographic cardiopulmonary process."
+    },
+    {
+        "id": "3847",
+        "image_path": [
+            "3847_IM-1946-1001.dcm.png",
+            "3847_IM-1946-1002.dcm.png"
+        ],
+        "report": "copd with almost completely resolved right apical pleural air collection."
+    },
+    {
+        "id": "3390",
+        "image_path": [
+            "3390_IM-1636-1001.dcm.png",
+            "3390_IM-1636-2001.dcm.png"
+        ],
+        "report": "no evidence of active disease."
+    },
+    {
+        "id": "3514",
+        "image_path": [
+            "3514_IM-1715-2001.dcm.png",
+            "3514_IM-1715-1001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process."
+    },
+    {
+        "id": "3103",
+        "image_path": [
+            "3103_IM-1454-1001.dcm.png",
+            "3103_IM-1454-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3088",
+        "image_path": [
+            "3088_IM-1444-1001.dcm.png",
+            "3088_IM-1444-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality. levoscoliosis of the thoracic spine."
+    },
+    {
+        "id": "1591",
+        "image_path": [
+            "1591_IM-0384-13013.dcm.png",
+            "1591_IM-0384-3001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary abnormalities. 2. low lung volumes causing bibasilar atelectasis and bronchovascular crowding."
+    },
+    {
+        "id": "463",
+        "image_path": [
+            "463_IM-2091-1001.dcm.png",
+            "463_IM-2091-2001.dcm.png"
+        ],
+        "report": "approximately 4.8 cm mass in the left lower hemithorax. this is favored to be arising from the chest wall and be pleural based. a ct of the chest is recommended for further evaluation. critical result notification documented through primordial."
+    },
+    {
+        "id": "236",
+        "image_path": [
+            "236_IM-0924-1001.dcm.png",
+            "236_IM-0924-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "545",
+        "image_path": [
+            "545_IM-2149-1001.dcm.png",
+            "545_IM-2149-2001.dcm.png"
+        ],
+        "report": "hypoinflation with bibasilar focal atelectasis."
+    },
+    {
+        "id": "2704",
+        "image_path": [
+            "2704_IM-1171-1001.dcm.png",
+            "2704_IM-1171-2001.dcm.png"
+        ],
+        "report": "1. indeterminant small nodular opacities. may be granulomas or bone islands. however, is recommended given the history of malignancy. 2. otherwise no acute cardiac or pulmonary disease process identified."
+    },
+    {
+        "id": "2417",
+        "image_path": [
+            "2417_IM-0961-1001.dcm.png",
+            "2417_IM-0961-2001.dcm.png"
+        ],
+        "report": "minimal bibasilar airspace disease."
+    },
+    {
+        "id": "594",
+        "image_path": [
+            "594_IM-2187-1001.dcm.png",
+            "594_IM-2187-2001.dcm.png"
+        ],
+        "report": "1. borderline cardiomegaly. 2. age-indeterminate, chronic, deformity in the midthoracic spine."
+    },
+    {
+        "id": "712",
+        "image_path": [
+            "712_IM-2274-0001-0001.dcm.png",
+            "712_IM-2274-0001-0002.dcm.png"
+        ],
+        "report": "no acute abnormality demonstrated."
+    },
+    {
+        "id": "1020",
+        "image_path": [
+            "1020_IM-0017-1001.dcm.png",
+            "1020_IM-0017-2001.dcm.png"
+        ],
+        "report": "hypoinflation with no visible active cardiopulmonary disease."
+    },
+    {
+        "id": "370",
+        "image_path": [
+            "370_IM-1848-1001.dcm.png",
+            "370_IM-1848-2001.dcm.png"
+        ],
+        "report": "negative for acute cardiopulmonary findings."
+    },
+    {
+        "id": "1087",
+        "image_path": [
+            "1087_IM-0060-1002001.dcm.png",
+            "1087_IM-0060-1004003.dcm.png"
+        ],
+        "report": "old granulomatous disease. no acute pulmonary disease."
+    },
+    {
+        "id": "3986",
+        "image_path": [
+            "3986_IM-2041-1001.dcm.png",
+            "3986_IM-2041-2001.dcm.png"
+        ],
+        "report": "1. no acute radiographic cardiopulmonary process."
+    },
+    {
+        "id": "2226",
+        "image_path": [
+            "2226_IM-0830-12001.dcm.png",
+            "2226_IM-0830-13001.dcm.png"
+        ],
+        "report": "1. no acute radiographic cardiopulmonary process."
+    },
+    {
+        "id": "3205",
+        "image_path": [
+            "3205_IM-1513-1001.dcm.png",
+            "3205_IM-1513-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormalities. no visualized rib fractures."
+    },
+    {
+        "id": "3282",
+        "image_path": [
+            "3282_IM-1563-2001.dcm.png",
+            "3282_IM-1563-1001.dcm.png"
+        ],
+        "report": "low lung volumes without acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3185",
+        "image_path": [
+            "3185_IM-1503-1001.dcm.png",
+            "3185_IM-1503-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process."
+    },
+    {
+        "id": "2733",
+        "image_path": [
+            "2733_IM-1189-1001.dcm.png",
+            "2733_IM-1189-2001.dcm.png"
+        ],
+        "report": "bibasilar airspace opacities, right greater than left. these findings are concerning for pneumonia."
+    },
+    {
+        "id": "3240",
+        "image_path": [
+            "3240_IM-1534-1001.dcm.png",
+            "3240_IM-1534-2001.dcm.png"
+        ],
+        "report": "emphysema without superimposed pneumonia."
+    },
+    {
+        "id": "3345",
+        "image_path": [
+            "3345_IM-1603-1001.dcm.png",
+            "3345_IM-1603-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "971",
+        "image_path": [
+            "971_IM-2461-2001.dcm.png",
+            "971_IM-2461-1001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3634",
+        "image_path": [
+            "3634_IM-1801-1001.dcm.png",
+            "3634_IM-1801-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "2538",
+        "image_path": [
+            "2538_IM-1050-1001.dcm.png",
+            "2538_IM-1050-1002.dcm.png"
+        ],
+        "report": "no radiographic evidence of tuberculosis."
+    },
+    {
+        "id": "2899",
+        "image_path": [
+            "2899_IM-1301-1001.dcm.png",
+            "2899_IM-1301-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings.."
+    },
+    {
+        "id": "2299",
+        "image_path": [
+            "2299_IM-0878-1001.dcm.png",
+            "2299_IM-0878-2001.dcm.png"
+        ],
+        "report": "negative for acute abnormality."
+    },
+    {
+        "id": "3546",
+        "image_path": [
+            "3546_IM-1738-4004.dcm.png",
+            "3546_IM-1738-2001.dcm.png"
+        ],
+        "report": "unchanged appearance of the chest with interstitial prominence the differential of which is but could include interstitial edema, infectious process or interstitial disease."
+    },
+    {
+        "id": "1359",
+        "image_path": [
+            "1359_IM-0233-1001.dcm.png",
+            "1359_IM-0233-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "1263",
+        "image_path": [
+            "1263_IM-0179-1001.dcm.png",
+            "1263_IM-0179-3001.dcm.png"
+        ],
+        "report": "no acute findings."
+    },
+    {
+        "id": "3809",
+        "image_path": [
+            "3809_IM-1919-1002001.dcm.png",
+            "3809_IM-1919-1004003.dcm.png"
+        ],
+        "report": "negative chest -."
+    },
+    {
+        "id": "917",
+        "image_path": [
+            "917_IM-2419-1001.dcm.png",
+            "917_IM-2419-2001.dcm.png"
+        ],
+        "report": "1. stable appearance of the chest. no acute pulmonary disease."
+    },
+    {
+        "id": "2386",
+        "image_path": [
+            "2386_IM-0942-1001.dcm.png",
+            "2386_IM-0942-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "1954",
+        "image_path": [
+            "1954_IM-0622-1001.dcm.png",
+            "1954_IM-0622-2001.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "3687",
+        "image_path": [
+            "3687_IM-1838-2001.dcm.png",
+            "3687_IM-1838-1001.dcm.png"
+        ],
+        "report": "minimal patchy left basilar atelectasis or infiltrate."
+    },
+    {
+        "id": "3130",
+        "image_path": [
+            "3130_IM-1472-1001.dcm.png",
+            "3130_IM-1472-2001.dcm.png"
+        ],
+        "report": "left lower lobe and right perihilar airspace disease. in the appropriate clinical setting, this is compatible with infection/pneumonia and followup radiography is recommended following treatment to document resolution. if clinical findings are discordant, a is recommended."
+    },
+    {
+        "id": "3745",
+        "image_path": [
+            "3745_IM-1872-1001.dcm.png",
+            "3745_IM-1872-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "2597",
+        "image_path": [
+            "2597_IM-1087-1001.dcm.png",
+            "2597_IM-1087-1002.dcm.png"
+        ],
+        "report": "decreasing bilateral hilar adenopathy. continued clear lungs."
+    },
+    {
+        "id": "2189",
+        "image_path": [
+            "2189_IM-0798-1001.dcm.png",
+            "2189_IM-0798-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "2371",
+        "image_path": [
+            "2371_IM-0932-1001.dcm.png",
+            "2371_IM-0932-2001.dcm.png"
+        ],
+        "report": "lung volumes with streaky left basilar opacity consistent with subsegmental atelectasis."
+    },
+    {
+        "id": "732",
+        "image_path": [
+            "732_IM-2292-1001-0002.dcm.png",
+            "732_IM-2292-1001-0001.dcm.png"
+        ],
+        "report": "no evidence of metastatic disease.."
+    },
+    {
+        "id": "864",
+        "image_path": [
+            "864_IM-2384-1001.dcm.png",
+            "864_IM-2384-1002.dcm.png"
+        ],
+        "report": "stable exam with no acute abnormality seen."
+    },
+    {
+        "id": "342",
+        "image_path": [
+            "342_IM-1655-0001-0001.dcm.png",
+            "342_IM-1655-0001-0002.dcm.png"
+        ],
+        "report": "1. no acute pulmonary findings. 2. mild cardiomegaly."
+    },
+    {
+        "id": "1659",
+        "image_path": [
+            "1659_IM-0434-1001.dcm.png",
+            "1659_IM-0434-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings. no displaced fractures."
+    },
+    {
+        "id": "1435",
+        "image_path": [
+            "1435_IM-0280-1001.dcm.png",
+            "1435_IM-0280-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary disease."
+    },
+    {
+        "id": "1429",
+        "image_path": [
+            "1429_IM-0275-1001.dcm.png",
+            "1429_IM-0275-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3000",
+        "image_path": [
+            "3000_IM-1386-0001-0001.dcm.png",
+            "3000_IM-1386-0001-0002.dcm.png"
+        ],
+        "report": "1. multiple bilateral pulmonary nodules, concerning for metastatic disease. 2. prominent left hilum. after correlation with the scan performed today, findings reflect enlargement of the left pulmonary artery."
+    },
+    {
+        "id": "340",
+        "image_path": [
+            "340_IM-1644-4004.dcm.png",
+            "340_IM-1644-1001.dcm.png"
+        ],
+        "report": "cardiomegaly, no acute pulmonary findings"
+    },
+    {
+        "id": "2130",
+        "image_path": [
+            "2130_IM-0755-1001.dcm.png",
+            "2130_IM-0755-2001.dcm.png"
+        ],
+        "report": "1. cardiomegaly with mild interstitial edema and posterior pleural effusion. 2. 17 mm nodular opacity in the left lung and 10 mm nodular opacity in the right lung. these lesions are and could be followed up radiographically after treatment of edema, or could be further characterized with ct."
+    },
+    {
+        "id": "3309",
+        "image_path": [
+            "3309_IM-1583-1001.dcm.png",
+            "3309_IM-1583-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary findings."
+    },
+    {
+        "id": "1500",
+        "image_path": [
+            "1500_IM-0326-9001.dcm.png",
+            "1500_IM-0326-10001.dcm.png"
+        ],
+        "report": "no acute pulmonary findings."
+    },
+    {
+        "id": "3738",
+        "image_path": [
+            "3738_IM-1867-1001.dcm.png",
+            "3738_IM-1867-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "3433",
+        "image_path": [
+            "3433_IM-1662-1001.dcm.png",
+            "3433_IM-1662-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1304",
+        "image_path": [
+            "1304_IM-0199-1001.dcm.png",
+            "1304_IM-0199-2001.dcm.png"
+        ],
+        "report": "normal chest"
+    },
+    {
+        "id": "3414",
+        "image_path": [
+            "3414_IM-1650-1001.dcm.png",
+            "3414_IM-1650-2001.dcm.png"
+        ],
+        "report": "1. low volume study without definite acute process. 2. mild cardiomegaly."
+    },
+    {
+        "id": "1007",
+        "image_path": [
+            "1007_IM-0008-1001.dcm.png",
+            "1007_IM-0008-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormalities."
+    },
+    {
+        "id": "1454",
+        "image_path": [
+            "1454_IM-0293-1001.dcm.png",
+            "1454_IM-0293-2001.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "3559",
+        "image_path": [
+            "3559_IM-1744-1001.dcm.png",
+            "3559_IM-1744-2001.dcm.png"
+        ],
+        "report": "no acute abnormality."
+    },
+    {
+        "id": "38",
+        "image_path": [
+            "38_IM-1911-1001.dcm.png",
+            "38_IM-1911-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process."
+    },
+    {
+        "id": "1472",
+        "image_path": [
+            "1472_IM-0305-1001.dcm.png",
+            "1472_IM-0305-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary abnormalities."
+    },
+    {
+        "id": "3618",
+        "image_path": [
+            "3618_IM-1790-82420001.dcm.png",
+            "3618_IM-1790-82420002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormalities. emphysematous changes of the lungs."
+    },
+    {
+        "id": "133",
+        "image_path": [
+            "133_IM-0212-1001.dcm.png",
+            "133_IM-0212-2001.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "3209",
+        "image_path": [
+            "3209_IM-1515-1001.dcm.png",
+            "3209_IM-1515-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process."
+    },
+    {
+        "id": "1085",
+        "image_path": [
+            "1085_IM-0059-1001.dcm.png",
+            "1085_IM-0059-2001.dcm.png"
+        ],
+        "report": "low lung volumes without acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1015",
+        "image_path": [
+            "1015_IM-0001-1001.dcm.png",
+            "1015_IM-0001-2001.dcm.png"
+        ],
+        "report": "bibasilar opacities, right greater than left, features suggest a combination of consolidation and atelectasis"
+    },
+    {
+        "id": "2551",
+        "image_path": [
+            "2551_IM-1058-1001.dcm.png",
+            "2551_IM-1058-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process."
+    },
+    {
+        "id": "706",
+        "image_path": [
+            "706_IM-2269-4004.dcm.png",
+            "706_IM-2269-1001.dcm.png"
+        ],
+        "report": "no acute findings"
+    },
+    {
+        "id": "827",
+        "image_path": [
+            "827_IM-2356-1001.dcm.png",
+            "827_IM-2356-1002.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "725",
+        "image_path": [
+            "725_IM-2285-1001.dcm.png",
+            "725_IM-2285-4001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process."
+    },
+    {
+        "id": "1355",
+        "image_path": [
+            "1355_IM-0230-1001.dcm.png",
+            "1355_IM-0230-2001.dcm.png"
+        ],
+        "report": "low lung volumes with bronchovascular crowding, bibasilar opacities due at in part to atelectasis, infiltrates, pulmonary edema difficult to entirely exclude."
+    },
+    {
+        "id": "1702",
+        "image_path": [
+            "1702_IM-0463-1001.dcm.png",
+            "1702_IM-0463-2001.dcm.png"
+        ],
+        "report": "1. no acute radiographic cardiopulmonary process."
+    },
+    {
+        "id": "549",
+        "image_path": [
+            "549_IM-2153-1001.dcm.png",
+            "549_IM-2153-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary process. 2. stable appearance of the left upper lobe."
+    },
+    {
+        "id": "2336",
+        "image_path": [
+            "2336_IM-0903-1001.dcm.png",
+            "2336_IM-0903-2001.dcm.png"
+        ],
+        "report": "hyperinflated but clear lungs."
+    },
+    {
+        "id": "1372",
+        "image_path": [
+            "1372_IM-0239-1001.dcm.png",
+            "1372_IM-0239-2001.dcm.png"
+        ],
+        "report": "1. mild bibasilar airspace disease, probably atelectasis."
+    },
+    {
+        "id": "3948",
+        "image_path": [
+            "3948_IM-2017-1001.dcm.png",
+            "3948_IM-2017-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process."
+    },
+    {
+        "id": "1813",
+        "image_path": [
+            "1813_IM-0526-1001.dcm.png",
+            "1813_IM-0526-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings.."
+    },
+    {
+        "id": "3526",
+        "image_path": [
+            "3526_IM-1723-1001.dcm.png",
+            "3526_IM-1723-2001.dcm.png"
+        ],
+        "report": "low lung volumes without evidence of acute cardiopulmonary process."
+    },
+    {
+        "id": "338",
+        "image_path": [
+            "338_IM-1628-1001.dcm.png",
+            "338_IM-1628-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease."
+    },
+    {
+        "id": "2354",
+        "image_path": [
+            "2354_IM-0918-1001.dcm.png",
+            "2354_IM-0918-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1488",
+        "image_path": [
+            "1488_IM-0315-1001.dcm.png",
+            "1488_IM-0315-3003.dcm.png"
+        ],
+        "report": "1. no evidence of active disease."
+    },
+    {
+        "id": "959",
+        "image_path": [
+            "959_IM-2449-2001.dcm.png",
+            "959_IM-2449-1001.dcm.png"
+        ],
+        "report": "1. patchy right lower lobe airspace disease may be due to atelectasis or infiltrate."
+    },
+    {
+        "id": "2448",
+        "image_path": [
+            "2448_IM-0983-1001.dcm.png",
+            "2448_IM-0983-2001.dcm.png"
+        ],
+        "report": "no significant change in right pneumothorax or pleural fluid."
+    },
+    {
+        "id": "3273",
+        "image_path": [
+            "3273_IM-1554-1001.dcm.png",
+            "3273_IM-1554-2001.dcm.png"
+        ],
+        "report": "cardiomegaly without acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1267",
+        "image_path": [
+            "1267_IM-0179-1001.dcm.png",
+            "1267_IM-0179-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3129",
+        "image_path": [
+            "3129_IM-1471-3001.dcm.png",
+            "3129_IM-1471-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "1400",
+        "image_path": [
+            "1400_IM-0256-1001.dcm.png",
+            "1400_IM-0256-1002.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "461",
+        "image_path": [
+            "461_IM-2090-1001.dcm.png",
+            "461_IM-2090-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease.."
+    },
+    {
+        "id": "2206",
+        "image_path": [
+            "2206_IM-0815-2001.dcm.png",
+            "2206_IM-0815-1001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary abnormality. no active disease."
+    },
+    {
+        "id": "813",
+        "image_path": [
+            "813_IM-2344-1001.dcm.png",
+            "813_IM-2344-3001.dcm.png"
+        ],
+        "report": "low lung volumes with minimal left basilar atelectasis versus scarring."
+    },
+    {
+        "id": "3403",
+        "image_path": [
+            "3403_IM-1647-1001.dcm.png",
+            "3403_IM-1647-2001.dcm.png"
+        ],
+        "report": "negative for acute abnormality."
+    },
+    {
+        "id": "1560",
+        "image_path": [
+            "1560_IM-0366-1001.dcm.png",
+            "1560_IM-0366-1002.dcm.png"
+        ],
+        "report": "no acute findings."
+    },
+    {
+        "id": "3108",
+        "image_path": [
+            "3108_IM-1457-1001.dcm.png",
+            "3108_IM-1457-3001.dcm.png"
+        ],
+        "report": "the right lower lobe pneumonia"
+    },
+    {
+        "id": "3638",
+        "image_path": [
+            "3638_IM-1804-1001.dcm.png",
+            "3638_IM-1804-2001.dcm.png"
+        ],
+        "report": "1. cardiomegaly."
+    },
+    {
+        "id": "2858",
+        "image_path": [
+            "2858_IM-1265-1001.dcm.png",
+            "2858_IM-1265-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary finding."
+    },
+    {
+        "id": "323",
+        "image_path": [
+            "323_IM-1526-1001.dcm.png",
+            "323_IM-1526-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormalities."
+    },
+    {
+        "id": "1530",
+        "image_path": [
+            "1530_IM-0344-1001.dcm.png",
+            "1530_IM-0344-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1785",
+        "image_path": [
+            "1785_IM-0512-1001.dcm.png",
+            "1785_IM-0512-2001.dcm.png"
+        ],
+        "report": "no lobar pneumonia is present."
+    },
+    {
+        "id": "2316",
+        "image_path": [
+            "2316_IM-0889-1001.dcm.png",
+            "2316_IM-0889-2001.dcm.png"
+        ],
+        "report": "negative chest."
+    },
+    {
+        "id": "877",
+        "image_path": [
+            "877_IM-2392-1001.dcm.png",
+            "877_IM-2392-2001.dcm.png"
+        ],
+        "report": "1. mildly prominent interstitial markings, which could represent interstitial edema. 2. mild blunting of the posterior sulcus, which could represent a small effusion."
+    },
+    {
+        "id": "3171",
+        "image_path": [
+            "3171_IM-1494-1001.dcm.png",
+            "3171_IM-1494-1002.dcm.png"
+        ],
+        "report": "no active disease."
+    },
+    {
+        "id": "1225",
+        "image_path": [
+            "1225_IM-0150-1001.dcm.png",
+            "1225_IM-0150-2001.dcm.png"
+        ],
+        "report": "no acute abnormality identified."
+    },
+    {
+        "id": "90",
+        "image_path": [
+            "90_IM-2407-1001.dcm.png",
+            "90_IM-2407-2001.dcm.png"
+        ],
+        "report": "no evidence of active disease."
+    },
+    {
+        "id": "2445",
+        "image_path": [
+            "2445_IM-0981-2002.dcm.png",
+            "2445_IM-0981-3003.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "553",
+        "image_path": [
+            "553_IM-2155-2001.dcm.png",
+            "553_IM-2155-4001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process.."
+    },
+    {
+        "id": "1657",
+        "image_path": [
+            "1657_IM-0432-2002.dcm.png",
+            "1657_IM-0432-3003.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "619",
+        "image_path": [
+            "619_IM-2202-1002.dcm.png",
+            "619_IM-2202-1003.dcm.png"
+        ],
+        "report": "cardiomegaly, however no acute cardiopulmonary findings."
+    },
+    {
+        "id": "2124",
+        "image_path": [
+            "2124_IM-0749-1001.dcm.png",
+            "2124_IM-0749-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1506",
+        "image_path": [
+            "1506_IM-0330-1001.dcm.png",
+            "1506_IM-0330-2001.dcm.png"
+        ],
+        "report": "1. stable and adequately placed. 2. prominent pulmonary vasculature, subpleural edema, and peribronchial cuffing suggestive of volume overload versus viral bronchiolitis."
+    },
+    {
+        "id": "1558",
+        "image_path": [
+            "1558_IM-0365-1001.dcm.png",
+            "1558_IM-0365-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "259",
+        "image_path": [
+            "259_IM-1083-1001.dcm.png",
+            "259_IM-1083-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary finding."
+    },
+    {
+        "id": "3150",
+        "image_path": [
+            "3150_IM-1482-3001.dcm.png",
+            "3150_IM-1482-4001.dcm.png"
+        ],
+        "report": "left base focal atelectasis, no infiltrates that would suggest active tuberculosis."
+    },
+    {
+        "id": "287",
+        "image_path": [
+            "287_IM-1276-4004.dcm.png",
+            "287_IM-1276-1001.dcm.png"
+        ],
+        "report": "no acute abnormality."
+    },
+    {
+        "id": "2432",
+        "image_path": [
+            "2432_IM-0974-1001.dcm.png",
+            "2432_IM-0974-4001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings.."
+    },
+    {
+        "id": "1491",
+        "image_path": [
+            "1491_IM-0317-1001.dcm.png",
+            "1491_IM-0317-0001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "2744",
+        "image_path": [
+            "2744_IM-1197-1001.dcm.png",
+            "2744_IM-1197-2001.dcm.png"
+        ],
+        "report": "normal chest"
+    },
+    {
+        "id": "2751",
+        "image_path": [
+            "2751_IM-1201-1001.dcm.png",
+            "2751_IM-1201-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "2885",
+        "image_path": [
+            "2885_IM-1287-2001.dcm.png",
+            "2885_IM-1287-3001.dcm.png"
+        ],
+        "report": "acute obliquely oriented lucency through the right 12th posterior rib, concerning for acute fracture. recommend correlation with side of tenderness. no other fractures are identified. if there is high clinical concern, recommend further evaluation with dedicated views of the right ribs."
+    },
+    {
+        "id": "1249",
+        "image_path": [
+            "1249_IM-0169-1001.dcm.png",
+            "1249_IM-0169-2001.dcm.png"
+        ],
+        "report": "no radiographic evidence of acute cardiopulmonary disease."
+    },
+    {
+        "id": "2797",
+        "image_path": [
+            "2797_IM-1229-1001.dcm.png",
+            "2797_IM-1229-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormalities.."
+    },
+    {
+        "id": "2695",
+        "image_path": [
+            "2695_IM-1166-1001.dcm.png",
+            "2695_IM-1166-2001.dcm.png"
+        ],
+        "report": "no acute process."
+    },
+    {
+        "id": "1995",
+        "image_path": [
+            "1995_IM-0651-1001.dcm.png",
+            "1995_IM-0651-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1810",
+        "image_path": [
+            "1810_IM-0524-1001.dcm.png",
+            "1810_IM-0524-3001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "53",
+        "image_path": [
+            "53_IM-2138-1001.dcm.png",
+            "53_IM-2138-2001.dcm.png"
+        ],
+        "report": "low lung volumes with right basilar atelectasis. otherwise, no acute cardiopulmonary disease."
+    },
+    {
+        "id": "591",
+        "image_path": [
+            "591_IM-2186-1001.dcm.png",
+            "591_IM-2186-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary process. 2. age-indeterminate wedging of several midthoracic vertebral bodies."
+    },
+    {
+        "id": "3751",
+        "image_path": [
+            "3751_IM-1875-1001.dcm.png",
+            "3751_IM-1875-2001.dcm.png"
+        ],
+        "report": "no radiographic evidence of acute cardiopulmonary disease."
+    },
+    {
+        "id": "3648",
+        "image_path": [
+            "3648_IM-1810-3001.dcm.png",
+            "3648_IM-1810-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary finding."
+    },
+    {
+        "id": "468",
+        "image_path": [
+            "468_IM-2096-1001.dcm.png",
+            "468_IM-2096-2001.dcm.png"
+        ],
+        "report": "1. no acute pulmonary abnormality. 2. right apical nodule. further evaluation chest should be considered to exclude the possibility of pulmonary malignancy. 3.chronic findings as discussed below."
+    },
+    {
+        "id": "184",
+        "image_path": [
+            "184_IM-0544-1001.dcm.png",
+            "184_IM-0544-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process."
+    },
+    {
+        "id": "1609",
+        "image_path": [
+            "1609_IM-0394-1001.dcm.png",
+            "1609_IM-0394-2001.dcm.png"
+        ],
+        "report": "1. focal atelectasis to the left lung, posterior to the heart."
+    },
+    {
+        "id": "544",
+        "image_path": [
+            "544_IM-2148-1001.dcm.png",
+            "544_IM-2148-1002.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary findings."
+    },
+    {
+        "id": "995",
+        "image_path": [
+            "995_IM-2478-1001.dcm.png",
+            "995_IM-2478-1002.dcm.png"
+        ],
+        "report": "post operative chest with no acute disease."
+    },
+    {
+        "id": "3287",
+        "image_path": [
+            "3287_IM-1568-2002.dcm.png",
+            "3287_IM-1568-3003.dcm.png"
+        ],
+        "report": "right midlung and left basilar airspace densities. the most recent study is not available for comparison. recommend further evaluation with."
+    },
+    {
+        "id": "2315",
+        "image_path": [
+            "2315_IM-0889-1003.dcm.png",
+            "2315_IM-0889-1002.dcm.png"
+        ],
+        "report": "1. no acute radiographic cardiopulmonary process."
+    },
+    {
+        "id": "1447",
+        "image_path": [
+            "1447_IM-0289-1001.dcm.png",
+            "1447_IM-0289-2001.dcm.png"
+        ],
+        "report": "no acute pulmonary disease."
+    },
+    {
+        "id": "2403",
+        "image_path": [
+            "2403_IM-0951-1001.dcm.png",
+            "2403_IM-0951-2001.dcm.png"
+        ],
+        "report": "stable left basilar atelectasis versus scarring. no acute cardiopulmonary abnormalities."
+    },
+    {
+        "id": "1864",
+        "image_path": [
+            "1864_IM-0558-1001.dcm.png",
+            "1864_IM-0558-3001.dcm.png"
+        ],
+        "report": "borderline heart size, no acute pulmonary findings"
+    },
+    {
+        "id": "3262",
+        "image_path": [
+            "3262_IM-1548-1001.dcm.png",
+            "3262_IM-1548-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process."
+    },
+    {
+        "id": "3660",
+        "image_path": [
+            "3660_IM-1820-1001.dcm.png",
+            "3660_IM-1820-2001.dcm.png"
+        ],
+        "report": "negative for acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "565",
+        "image_path": [
+            "565_IM-2166-1001.dcm.png",
+            "565_IM-2166-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3829",
+        "image_path": [
+            "3829_IM-1932-1001.dcm.png",
+            "3829_IM-1932-2001.dcm.png"
+        ],
+        "report": "1. stable moderate cardiomegaly with prominent central pulmonary vasculature. 2. improved left basilar atelectasis or infiltrate."
+    },
+    {
+        "id": "475",
+        "image_path": [
+            "475_IM-2101-1001.dcm.png",
+            "475_IM-2101-2001.dcm.png"
+        ],
+        "report": "no acute or active cardiac, pulmonary or pleural disease."
+    },
+    {
+        "id": "393",
+        "image_path": [
+            "393_IM-2002-1001.dcm.png",
+            "393_IM-2002-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality.."
+    },
+    {
+        "id": "1667",
+        "image_path": [
+            "1667_IM-0441-1001.dcm.png",
+            "1667_IM-0441-2001.dcm.png"
+        ],
+        "report": "1. no evidence of acute cardiopulmonary process. 2. irregularity of the posterior right 7th rib with underlying pleural thickening. this may be related to , however, if there is no known history, consider comparison with prior studies if available of the chest for further evaluation"
+    },
+    {
+        "id": "871",
+        "image_path": [
+            "871_IM-2391-2001.dcm.png",
+            "871_IM-2391-1001.dcm.png"
+        ],
+        "report": "1. chest. no acute cardiopulmonary findings. 2. pelvis. no acute osseous findings."
+    },
+    {
+        "id": "2060",
+        "image_path": [
+            "2060_IM-0698-1001.dcm.png",
+            "2060_IM-0698-2001.dcm.png"
+        ],
+        "report": "prominence of the left hilum may be secondary to adenopathy or enlarged pulmonary vasculature. chest ct with contrast may be helpful for further clarification."
+    },
+    {
+        "id": "1465",
+        "image_path": [
+            "1465_IM-0302-1001.dcm.png",
+            "1465_IM-0302-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormalities."
+    },
+    {
+        "id": "1516",
+        "image_path": [
+            "1516_IM-0334-1001.dcm.png",
+            "1516_IM-0334-2001.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "307",
+        "image_path": [
+            "307_IM-1432-1001.dcm.png",
+            "307_IM-1432-2001.dcm.png"
+        ],
+        "report": "negative chest radiographs."
+    },
+    {
+        "id": "2542",
+        "image_path": [
+            "2542_IM-1053-1001.dcm.png",
+            "2542_IM-1053-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality identified."
+    },
+    {
+        "id": "2565",
+        "image_path": [
+            "2565_IM-1068-1002.dcm.png",
+            "2565_IM-1068-1003.dcm.png"
+        ],
+        "report": "1. low lung volumes without acute infiltrate. 2. aortic tortuosity and mild ectasia."
+    },
+    {
+        "id": "2252",
+        "image_path": [
+            "2252_IM-0844-1001.dcm.png",
+            "2252_IM-0844-1002.dcm.png"
+        ],
+        "report": "normal chest"
+    },
+    {
+        "id": "1920",
+        "image_path": [
+            "1920_IM-0598-1001.dcm.png",
+            "1920_IM-0598-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "2379",
+        "image_path": [
+            "2379_IM-0939-1001.dcm.png",
+            "2379_IM-0939-2001.dcm.png"
+        ],
+        "report": "stable chronic lung changes without acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "756",
+        "image_path": [
+            "756_IM-2307-1001.dcm.png",
+            "756_IM-2307-4001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease."
+    },
+    {
+        "id": "1097",
+        "image_path": [
+            "1097_IM-0067-1001.dcm.png",
+            "1097_IM-0067-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary abnormality. 2. mild age indeterminate anterior wedging at the t11 level."
+    },
+    {
+        "id": "1520",
+        "image_path": [
+            "1520_IM-0336-1002001.dcm.png",
+            "1520_IM-0336-1003002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease."
+    },
+    {
+        "id": "1152",
+        "image_path": [
+            "1152_IM-0103-1001.dcm.png",
+            "1152_IM-0103-2001.dcm.png"
+        ],
+        "report": "1. cardiomegaly without acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "2026",
+        "image_path": [
+            "2026_IM-0671-1001.dcm.png",
+            "2026_IM-0671-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormalities.."
+    },
+    {
+        "id": "3985",
+        "image_path": [
+            "3985_IM-2041-1001.dcm.png",
+            "3985_IM-2041-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality.."
+    },
+    {
+        "id": "288",
+        "image_path": [
+            "288_IM-1284-1001.dcm.png",
+            "288_IM-1284-1002.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3981",
+        "image_path": [
+            "3981_IM-2039-1001.dcm.png",
+            "3981_IM-2039-2001.dcm.png"
+        ],
+        "report": "no acute pulmonary disease."
+    },
+    {
+        "id": "1052",
+        "image_path": [
+            "1052_IM-0040-1001.dcm.png",
+            "1052_IM-0040-1002.dcm.png"
+        ],
+        "report": "no acute abnormalities."
+    },
+    {
+        "id": "628",
+        "image_path": [
+            "628_IM-2208-4001.dcm.png",
+            "628_IM-2208-3001.dcm.png"
+        ],
+        "report": "1. stable aneurysmal enlargement of the and descending aorta. chest cta could be obtained as a. 2. borderline heart size. 3. no acute pulmonary disease process."
+    },
+    {
+        "id": "183",
+        "image_path": [
+            "183_IM-0537-1001.dcm.png",
+            "183_IM-0537-1002.dcm.png"
+        ],
+        "report": "low lung volumes with airspace disease within the right lung base. followup radiographs following treatment is recommended to document resolution."
+    },
+    {
+        "id": "3451",
+        "image_path": [
+            "3451_IM-1674-1001.dcm.png",
+            "3451_IM-1674-3001.dcm.png"
+        ],
+        "report": "stable blunting of right costophrenic with small pleural effusion versus thickening and associated healed right rib deformities."
+    },
+    {
+        "id": "3560",
+        "image_path": [
+            "3560_IM-1745-1001.dcm.png",
+            "3560_IM-1745-1002.dcm.png"
+        ],
+        "report": "no active disease."
+    },
+    {
+        "id": "270",
+        "image_path": [
+            "270_IM-1168-1001.dcm.png",
+            "270_IM-1168-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings.."
+    },
+    {
+        "id": "2310",
+        "image_path": [
+            "2310_IM-0885-1001.dcm.png",
+            "2310_IM-0885-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary findings."
+    },
+    {
+        "id": "1933",
+        "image_path": [
+            "1933_IM-0604-1001.dcm.png",
+            "1933_IM-0604-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3241",
+        "image_path": [
+            "3241_IM-1534-1001.dcm.png",
+            "3241_IM-1534-2001.dcm.png"
+        ],
+        "report": "1. left basilar atelectasis. 2. no focal airspace consolidation."
+    },
+    {
+        "id": "3565",
+        "image_path": [
+            "3565_IM-1750-1001.dcm.png",
+            "3565_IM-1750-2001.dcm.png"
+        ],
+        "report": "1. stable right middle lobe consolidation, most consistent with pneumonia."
+    },
+    {
+        "id": "620",
+        "image_path": [
+            "620_IM-2202-1001.dcm.png",
+            "620_IM-2202-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality.."
+    },
+    {
+        "id": "1458",
+        "image_path": [
+            "1458_IM-0296-1001.dcm.png",
+            "1458_IM-0296-2001.dcm.png"
+        ],
+        "report": "stable cardiomegaly. clear lungs.."
+    },
+    {
+        "id": "1745",
+        "image_path": [
+            "1745_IM-0489-4004.dcm.png",
+            "1745_IM-0489-1001.dcm.png"
+        ],
+        "report": "no acute thoracic."
+    },
+    {
+        "id": "2795",
+        "image_path": [
+            "2795_IM-1227-1001.dcm.png",
+            "2795_IM-1227-2001.dcm.png"
+        ],
+        "report": "diffuse reticulonodular pattern bilaterally. the this may represent heart failure, opportunistic infection, or idiopathic interstitial pneumonitis. of chest for further characterization."
+    },
+    {
+        "id": "2612",
+        "image_path": [
+            "2612_IM-1103-1001.dcm.png",
+            "2612_IM-1103-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings.."
+    },
+    {
+        "id": "1695",
+        "image_path": [
+            "1695_IM-0456-1002001.dcm.png",
+            "1695_IM-0456-1003002.dcm.png"
+        ],
+        "report": "soft tissue neck. small 3 1 mm density possibly in a piriform sinus only seen on the lateral exam. chest. no acute cardiopulmonary disease."
+    },
+    {
+        "id": "2467",
+        "image_path": [
+            "2467_IM-0997-1001.dcm.png",
+            "2467_IM-0997-2001.dcm.png"
+        ],
+        "report": "multiple round opacities in the right upper lobe measuring up to 7 mm. exact etiology of these is unclear."
+    },
+    {
+        "id": "713",
+        "image_path": [
+            "713_IM-2275-1001.dcm.png",
+            "713_IM-2275-2001.dcm.png"
+        ],
+        "report": "findings consistent with widespread changes from cystic fibrosis. it is difficult to differentiate acute from chronic change."
+    },
+    {
+        "id": "3380",
+        "image_path": [
+            "3380_IM-1628-1001.dcm.png",
+            "3380_IM-1628-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease."
+    },
+    {
+        "id": "3846",
+        "image_path": [
+            "3846_IM-1946-1001.dcm.png",
+            "3846_IM-1946-3001.dcm.png"
+        ],
+        "report": "recurrent moderate sized left pleural effusion."
+    },
+    {
+        "id": "793",
+        "image_path": [
+            "793_IM-2330-1001.dcm.png",
+            "793_IM-2330-2001.dcm.png"
+        ],
+        "report": "no evidence of acute cardiopulmonary process."
+    },
+    {
+        "id": "3291",
+        "image_path": [
+            "3291_IM-1572-1001.dcm.png",
+            "3291_IM-1572-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease"
+    },
+    {
+        "id": "2100",
+        "image_path": [
+            "2100_IM-0731-1001.dcm.png",
+            "2100_IM-0731-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary findings."
+    },
+    {
+        "id": "960",
+        "image_path": [
+            "960_IM-2451-4004.dcm.png",
+            "960_IM-2451-11001.dcm.png"
+        ],
+        "report": "no acute findings. please note that fractures may not be demonstrated and consider additional imaging as clinically warranted."
+    },
+    {
+        "id": "96",
+        "image_path": [
+            "96_IM-2450-2002.dcm.png",
+            "96_IM-2450-3003.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease"
+    },
+    {
+        "id": "2097",
+        "image_path": [
+            "2097_IM-0727-1001-0001.dcm.png",
+            "2097_IM-0727-1001-0002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality seen on chest -. no pneumothorax."
+    },
+    {
+        "id": "3636",
+        "image_path": [
+            "3636_IM-1803-1001.dcm.png",
+            "3636_IM-1803-2001.dcm.png"
+        ],
+        "report": "chest radiograph. stable emphysematous changes without acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "2687",
+        "image_path": [
+            "2687_IM-1158-1001.dcm.png",
+            "2687_IM-1158-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "3099",
+        "image_path": [
+            "3099_IM-1450-1001.dcm.png",
+            "3099_IM-1450-2001.dcm.png"
+        ],
+        "report": "negative for acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "641",
+        "image_path": [
+            "641_IM-2220-1001.dcm.png",
+            "641_IM-2220-2001.dcm.png"
+        ],
+        "report": "no acute findings"
+    },
+    {
+        "id": "1370",
+        "image_path": [
+            "1370_IM-0239-1001.dcm.png",
+            "1370_IM-0239-2001.dcm.png"
+        ],
+        "report": "1. possible infiltrates in the right lung and left base. consider ct for further evaluation, if clinically indicated."
+    },
+    {
+        "id": "618",
+        "image_path": [
+            "618_IM-2201-1001.dcm.png",
+            "618_IM-2201-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease. no evidence for metastatic disease by radiographic evaluation."
+    },
+    {
+        "id": "2305",
+        "image_path": [
+            "2305_IM-0882-1001.dcm.png",
+            "2305_IM-0882-1002.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "2783",
+        "image_path": [
+            "2783_IM-1220-1001.dcm.png",
+            "2783_IM-1220-1002.dcm.png"
+        ],
+        "report": "stable chest radiograph with no acute or progressive abnormality. there is no suggestion of enlargement of the known right retrohilar pulmonary nodule or pulmonary nodularity."
+    },
+    {
+        "id": "2998",
+        "image_path": [
+            "2998_IM-1382-1001.dcm.png",
+            "2998_IM-1382-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3165",
+        "image_path": [
+            "3165_IM-1490-13013.dcm.png",
+            "3165_IM-1490-1001.dcm.png"
+        ],
+        "report": "mildly improved opacities, which may represent atelectasis, infiltrate and/or pleural effusions."
+    },
+    {
+        "id": "2476",
+        "image_path": [
+            "2476_IM-1005-1001.dcm.png",
+            "2476_IM-1005-2001.dcm.png"
+        ],
+        "report": "1. no evidence of active disease."
+    },
+    {
+        "id": "806",
+        "image_path": [
+            "806_IM-2340-0001-0002.dcm.png",
+            "806_IM-2340-0001-0001.dcm.png"
+        ],
+        "report": "borderline cardiomegaly. no acute findings.."
+    },
+    {
+        "id": "1075",
+        "image_path": [
+            "1075_IM-0054-1001.dcm.png",
+            "1075_IM-0054-2001.dcm.png"
+        ],
+        "report": "1. severe emphysema. 2. irregular, pleural-parenchymal opacity in left upper lobe. this may irregular pleural-parenchymal scarring, however, recommend comparison with more remote outside imaging, if available to determine long-term stability. if none are available, recommend short-term in 3 to 4 months. evaluation of coronal and sagittal reformatted images from the outside study would also be helpful. these were not available at the outside institution. malignancy cannot be confidently excluded on the available images."
+    },
+    {
+        "id": "2799",
+        "image_path": [
+            "2799_IM-1231-1001.dcm.png",
+            "2799_IM-1231-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3642",
+        "image_path": [
+            "3642_IM-1806-1001.dcm.png",
+            "3642_IM-1806-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process."
+    },
+    {
+        "id": "2402",
+        "image_path": [
+            "2402_IM-0951-1001.dcm.png",
+            "2402_IM-0951-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "3837",
+        "image_path": [
+            "3837_IM-1939-1001.dcm.png",
+            "3837_IM-1939-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process."
+    },
+    {
+        "id": "2111",
+        "image_path": [
+            "2111_IM-0741-2001.dcm.png",
+            "2111_IM-0741-1001.dcm.png"
+        ],
+        "report": "patchy airspace disease on the lateral view, probably within the right lower lobe, a pneumonia superimposed on severe underlying emphysema. recommend following this process to resolution."
+    },
+    {
+        "id": "3177",
+        "image_path": [
+            "3177_IM-1497-1001.dcm.png",
+            "3177_IM-1497-2001.dcm.png"
+        ],
+        "report": "hyperinflation consistent with copd. no acute pulmonary disease identified."
+    },
+    {
+        "id": "1984",
+        "image_path": [
+            "1984_IM-0641-4001-0001.dcm.png",
+            "1984_IM-0641-4001-0002.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary abnormality. 2. wedge-shaped fracture of t12."
+    },
+    {
+        "id": "2494",
+        "image_path": [
+            "2494_IM-1020-1001.dcm.png",
+            "2494_IM-1020-2001.dcm.png"
+        ],
+        "report": "cardiomegaly without acute disease."
+    },
+    {
+        "id": "1918",
+        "image_path": [
+            "1918_IM-0597-2001.dcm.png",
+            "1918_IM-0597-3001.dcm.png"
+        ],
+        "report": "1. prominence of left hilum which could be due to nodule/lymph node or superimposing blood. in the absence of prior studies for comparison, chest for further evaluation. result notification primordial."
+    },
+    {
+        "id": "419",
+        "image_path": [
+            "419_IM-2062-1001.dcm.png",
+            "419_IM-2062-2001.dcm.png"
+        ],
+        "report": "no acute preoperative findings."
+    },
+    {
+        "id": "168",
+        "image_path": [
+            "168_IM-0448-1001.dcm.png",
+            "168_IM-0448-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1926",
+        "image_path": [
+            "1926_IM-0600-1001.dcm.png",
+            "1926_IM-0600-2001.dcm.png"
+        ],
+        "report": "no active disease."
+    },
+    {
+        "id": "1517",
+        "image_path": [
+            "1517_IM-0335-1001.dcm.png",
+            "1517_IM-0335-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1727",
+        "image_path": [
+            "1727_IM-0479-1001.dcm.png",
+            "1727_IM-0479-2001.dcm.png"
+        ],
+        "report": "1. left midlung opacity, not well seen on prior exam, may represent focus of airspace disease. 2. stable left base opacities, scarring or atelectasis. 2. postsurgical changes as above.."
+    },
+    {
+        "id": "1113",
+        "image_path": [
+            "1113_IM-0078-1001.dcm.png",
+            "1113_IM-0078-1002.dcm.png"
+        ],
+        "report": "1. emphysematous changes. 2. resolution of prior right midlung infiltrate."
+    },
+    {
+        "id": "3675",
+        "image_path": [
+            "3675_IM-1829-0001-0001.dcm.png",
+            "3675_IM-1829-0001-0002.dcm.png"
+        ],
+        "report": "1. no acute pulmonary disease."
+    },
+    {
+        "id": "3792",
+        "image_path": [
+            "3792_IM-1906-1001.dcm.png",
+            "3792_IM-1906-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "2999",
+        "image_path": [
+            "2999_IM-1383-0001-0001.dcm.png",
+            "2999_IM-1383-0001-0002.dcm.png"
+        ],
+        "report": "1. patchy left basilar subsegmental atelectasis, infiltrates and/or small left pleural effusion.."
+    },
+    {
+        "id": "2880",
+        "image_path": [
+            "2880_IM-1284-1001.dcm.png",
+            "2880_IM-1284-2001.dcm.png"
+        ],
+        "report": "normal chest."
+    },
+    {
+        "id": "3720",
+        "image_path": [
+            "3720_IM-1859-1001.dcm.png",
+            "3720_IM-1859-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings.."
+    },
+    {
+        "id": "1093",
+        "image_path": [
+            "1093_IM-0064-1001.dcm.png",
+            "1093_IM-0064-3003.dcm.png"
+        ],
+        "report": "1. no evidence of active disease."
+    },
+    {
+        "id": "952",
+        "image_path": [
+            "952_IM-2447-2002.dcm.png",
+            "952_IM-2447-3003.dcm.png"
+        ],
+        "report": "1. a few basilar of opacity. this may represent scarring or atelectasis."
+    },
+    {
+        "id": "3187",
+        "image_path": [
+            "3187_IM-1503-1001.dcm.png",
+            "3187_IM-1503-2001.dcm.png"
+        ],
+        "report": "mild pulmonary vascular congestion, with bilateral effusions. constellation findings is most compatible with congestive heart failure."
+    },
+    {
+        "id": "1153",
+        "image_path": [
+            "1153_IM-0104-1001.dcm.png",
+            "1153_IM-0104-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality. no evidence of active tuberculosis.."
+    },
+    {
+        "id": "3705",
+        "image_path": [
+            "3705_IM-1851-1001-0001.dcm.png",
+            "3705_IM-1851-1001-0002.dcm.png"
+        ],
+        "report": "no acute pulmonary disease."
+    },
+    {
+        "id": "1840",
+        "image_path": [
+            "1840_IM-0545-1001.dcm.png",
+            "1840_IM-0545-2001.dcm.png"
+        ],
+        "report": "1. asymmetric left suprahilar opacity, consider focal airspace disease or adenopathy. correlate clinically as to or symptoms of infection. recommend followup radiograph to document resolution."
+    },
+    {
+        "id": "3775",
+        "image_path": [
+            "3775_IM-1893-1001.dcm.png",
+            "3775_IM-1893-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary process."
+    },
+    {
+        "id": "3678",
+        "image_path": [
+            "3678_IM-1831-1001.dcm.png",
+            "3678_IM-1831-2001.dcm.png"
+        ],
+        "report": "mild costophrenic blunting suggesting bilateral pleural effusions and/or thickening. no acute infiltrate."
+    },
+    {
+        "id": "3462",
+        "image_path": [
+            "3462_IM-1683-1001.dcm.png",
+            "3462_IM-1683-2001.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "490",
+        "image_path": [
+            "490_IM-2110-1001.dcm.png",
+            "490_IM-2110-2001.dcm.png"
+        ],
+        "report": "there is no evidence of acute cardiopulmonary disease.."
+    },
+    {
+        "id": "1687",
+        "image_path": [
+            "1687_IM-0450-1001.dcm.png",
+            "1687_IM-0450-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary abnormality. 2. feeding tube tip distal to the gastroesophageal junction."
+    },
+    {
+        "id": "3410",
+        "image_path": [
+            "3410_IM-1648-1001.dcm.png",
+            "3410_IM-1648-2001.dcm.png"
+        ],
+        "report": "change. copd with no acute disease."
+    },
+    {
+        "id": "3265",
+        "image_path": [
+            "3265_IM-1551-1001.dcm.png",
+            "3265_IM-1551-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "3285",
+        "image_path": [
+            "3285_IM-1566-1001.dcm.png",
+            "3285_IM-1566-2001.dcm.png"
+        ],
+        "report": "negative chest."
+    },
+    {
+        "id": "1406",
+        "image_path": [
+            "1406_IM-0259-1001.dcm.png",
+            "1406_IM-0259-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary disease."
+    },
+    {
+        "id": "2892",
+        "image_path": [
+            "2892_IM-1295-1001.dcm.png",
+            "2892_IM-1295-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease."
+    },
+    {
+        "id": "2138",
+        "image_path": [
+            "2138_IM-0760-1001.dcm.png",
+            "2138_IM-0760-1002.dcm.png"
+        ],
+        "report": "no acute abnormality seen."
+    },
+    {
+        "id": "982",
+        "image_path": [
+            "982_IM-2470-1001.dcm.png",
+            "982_IM-2470-3003.dcm.png"
+        ],
+        "report": "no active disease."
+    },
+    {
+        "id": "1476",
+        "image_path": [
+            "1476_IM-0308-1001.dcm.png",
+            "1476_IM-0308-3001.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "3673",
+        "image_path": [
+            "3673_IM-1828-1001.dcm.png",
+            "3673_IM-1828-1002.dcm.png"
+        ],
+        "report": "left midlung opacity may be secondary to acute infectious process or developing mass lesion. followup to resolution is recommended."
+    },
+    {
+        "id": "587",
+        "image_path": [
+            "587_IM-2182-2001.dcm.png",
+            "587_IM-2182-1001.dcm.png"
+        ],
+        "report": "1. no interval change in the appearance of the opacities in the bilateral lower lobes."
+    },
+    {
+        "id": "3391",
+        "image_path": [
+            "3391_IM-1637-2001.dcm.png",
+            "3391_IM-1637-1001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "210",
+        "image_path": [
+            "210_IM-0730-1001.dcm.png",
+            "210_IM-0730-4001.dcm.png"
+        ],
+        "report": "no acute pulmonary disease."
+    },
+    {
+        "id": "1365",
+        "image_path": [
+            "1365_IM-0237-1001.dcm.png",
+            "1365_IM-0237-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings"
+    },
+    {
+        "id": "2670",
+        "image_path": [
+            "2670_IM-1148-1001.dcm.png",
+            "2670_IM-1148-1002.dcm.png"
+        ],
+        "report": "emphysematous changes with streaky opacities in the left perihilar and lingular regions, focal atelectasis and scarring."
+    },
+    {
+        "id": "797",
+        "image_path": [
+            "797_IM-2332-1001.dcm.png",
+            "797_IM-2332-2001.dcm.png"
+        ],
+        "report": "1. cardiomegaly without lung infiltrates."
+    },
+    {
+        "id": "3426",
+        "image_path": [
+            "3426_IM-1656-1001.dcm.png",
+            "3426_IM-1656-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease."
+    },
+    {
+        "id": "1269",
+        "image_path": [
+            "1269_IM-0181-1001.dcm.png",
+            "1269_IM-0181-2001.dcm.png"
+        ],
+        "report": "hyperexpanded lungs, otherwise clear."
+    },
+    {
+        "id": "295",
+        "image_path": [
+            "295_IM-1348-1001.dcm.png",
+            "295_IM-1348-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "679",
+        "image_path": [
+            "679_IM-2251-1001.dcm.png",
+            "679_IM-2251-2001.dcm.png"
+        ],
+        "report": "1. unremarkable examination of the chest."
+    },
+    {
+        "id": "1889",
+        "image_path": [
+            "1889_IM-0577-1001.dcm.png",
+            "1889_IM-0577-2001.dcm.png"
+        ],
+        "report": "1. atelectasis in the right lung base. elevated right hemidiaphragm. no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3465",
+        "image_path": [
+            "3465_IM-1683-1001.dcm.png",
+            "3465_IM-1683-2001.dcm.png"
+        ],
+        "report": "clear lungs."
+    },
+    {
+        "id": "3413",
+        "image_path": [
+            "3413_IM-1650-1001.dcm.png",
+            "3413_IM-1650-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary disease."
+    },
+    {
+        "id": "2616",
+        "image_path": [
+            "2616_IM-1106-1001.dcm.png",
+            "2616_IM-1106-2001.dcm.png"
+        ],
+        "report": "1. right-sided small pleural effusion. 2. right base /fluid level. atypical location for a hiatal hernia. cannot exclude a right lower lobe cavity. correlation scan recommended. does not appear to be a hydropneumothorax or empyema."
+    },
+    {
+        "id": "2636",
+        "image_path": [
+            "2636_IM-1121-1001.dcm.png",
+            "2636_IM-1121-2001.dcm.png"
+        ],
+        "report": "1. no acute intrathoracic abnormality."
+    },
+    {
+        "id": "3128",
+        "image_path": [
+            "3128_IM-1471-1001.dcm.png",
+            "3128_IM-1471-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3234",
+        "image_path": [
+            "3234_IM-1531-1001.dcm.png",
+            "3234_IM-1531-2001.dcm.png"
+        ],
+        "report": "negative chest."
+    },
+    {
+        "id": "1053",
+        "image_path": [
+            "1053_IM-0040-1001.dcm.png",
+            "1053_IM-0040-3003.dcm.png"
+        ],
+        "report": "1. scattered bilateral subsegmental atelectasis. decreased from prior radiograph. 2. stable mild cardiomegaly."
+    },
+    {
+        "id": "219",
+        "image_path": [
+            "219_IM-0799-1001.dcm.png",
+            "219_IM-0799-2001.dcm.png"
+        ],
+        "report": "no - evidence of pulmonary metastatic disease. stable appearance of the chest."
+    },
+    {
+        "id": "2855",
+        "image_path": [
+            "2855_IM-1263-1001.dcm.png",
+            "2855_IM-1263-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "650",
+        "image_path": [
+            "650_IM-2228-4001.dcm.png",
+            "650_IM-2228-2001.dcm.png"
+        ],
+        "report": "1. moderate right-sided pleural effusion. 2. no cavitary lung changes to suggest active tuberculosis. the airspace opacities in right upper lobe seen on chest are not visualized on this study which could be due to difference in technique and patient rotation. 3. cardiomegaly with prominent aorta which may be accentuated due to ap view. 4. left humerus fracture.."
+    },
+    {
+        "id": "2845",
+        "image_path": [
+            "2845_IM-1254-1001.dcm.png",
+            "2845_IM-1254-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary finding."
+    },
+    {
+        "id": "759",
+        "image_path": [
+            "759_IM-2309-1001.dcm.png",
+            "759_IM-2309-2001.dcm.png"
+        ],
+        "report": "normal chest film."
+    },
+    {
+        "id": "2156",
+        "image_path": [
+            "2156_IM-0775-1001.dcm.png",
+            "2156_IM-0775-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormalities."
+    },
+    {
+        "id": "3724",
+        "image_path": [
+            "3724_IM-1860-2001.dcm.png",
+            "3724_IM-1860-1001.dcm.png"
+        ],
+        "report": "normal chest."
+    },
+    {
+        "id": "3529",
+        "image_path": [
+            "3529_IM-1725-1001.dcm.png",
+            "3529_IM-1725-2001.dcm.png"
+        ],
+        "report": "stable postop changes with stable mild cardiomegaly and normal lung vascularity."
+    },
+    {
+        "id": "680",
+        "image_path": [
+            "680_IM-2251-1001.dcm.png",
+            "680_IM-2251-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality identified."
+    },
+    {
+        "id": "942",
+        "image_path": [
+            "942_IM-2438-1001.dcm.png",
+            "942_IM-2438-2001.dcm.png"
+        ],
+        "report": "1. no evidence of active disease."
+    },
+    {
+        "id": "2131",
+        "image_path": [
+            "2131_IM-0755-1001.dcm.png",
+            "2131_IM-0755-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings.."
+    },
+    {
+        "id": "3420",
+        "image_path": [
+            "3420_IM-1656-1001.dcm.png",
+            "3420_IM-1656-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "1694",
+        "image_path": [
+            "1694_IM-0455-1001.dcm.png",
+            "1694_IM-0455-2001.dcm.png"
+        ],
+        "report": "1. vague increased sclerotic focus overlying the posterior spine on lateral , from prior study. although this may be artifact or a pulmonary density, a sclerotic focus within the thoracic cannot be excluded. bone scan would be helpful to evaluate for metastatic disease to the bone."
+    },
+    {
+        "id": "2383",
+        "image_path": [
+            "2383_IM-0941-1001.dcm.png",
+            "2383_IM-0941-2001.dcm.png"
+        ],
+        "report": "stable cardiomegaly without heart failure."
+    },
+    {
+        "id": "3235",
+        "image_path": [
+            "3235_IM-1532-1001.dcm.png",
+            "3235_IM-1532-2001.dcm.png"
+        ],
+        "report": "normal chest exam."
+    },
+    {
+        "id": "1509",
+        "image_path": [
+            "1509_IM-0331-1001.dcm.png",
+            "1509_IM-0331-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1665",
+        "image_path": [
+            "1665_IM-0439-1001.dcm.png",
+            "1665_IM-0439-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary abnormalities"
+    },
+    {
+        "id": "2997",
+        "image_path": [
+            "2997_IM-1381-2001.dcm.png",
+            "2997_IM-1381-1001.dcm.png"
+        ],
+        "report": "negative for acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3272",
+        "image_path": [
+            "3272_IM-1553-1001.dcm.png",
+            "3272_IM-1553-2001.dcm.png"
+        ],
+        "report": "hypoinflation with bibasilar focal atelectasis."
+    },
+    {
+        "id": "1067",
+        "image_path": [
+            "1067_IM-0048-1001.dcm.png",
+            "1067_IM-0048-2001.dcm.png"
+        ],
+        "report": "no radiographic evidence of acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "3052",
+        "image_path": [
+            "3052_IM-1420-1001.dcm.png",
+            "3052_IM-1420-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "2070",
+        "image_path": [
+            "2070_IM-0704-1001.dcm.png",
+            "2070_IM-0704-2001.dcm.png"
+        ],
+        "report": "subtle interstitial markings bilateral, may represent mild pulmonary edema or chronic interstitial changes."
+    },
+    {
+        "id": "3946",
+        "image_path": [
+            "3946_IM-2015-1001.dcm.png",
+            "3946_IM-2015-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "2808",
+        "image_path": [
+            "2808_IM-1238-1001.dcm.png",
+            "2808_IM-1238-2001.dcm.png"
+        ],
+        "report": "clear lungs."
+    },
+    {
+        "id": "2031",
+        "image_path": [
+            "2031_IM-0676-2002.dcm.png",
+            "2031_IM-0676-3003.dcm.png"
+        ],
+        "report": "no acute abnormality. no pulmonary nodule identified.."
+    },
+    {
+        "id": "930",
+        "image_path": [
+            "930_IM-2429-2001.dcm.png",
+            "930_IM-2429-1001.dcm.png"
+        ],
+        "report": "change. hypoinflation with no visible active cardiopulmonary disease."
+    },
+    {
+        "id": "3480",
+        "image_path": [
+            "3480_IM-1691-1001.dcm.png",
+            "3480_IM-1691-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1730",
+        "image_path": [
+            "1730_IM-0481-1001.dcm.png",
+            "1730_IM-0481-1002.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormalities."
+    },
+    {
+        "id": "2208",
+        "image_path": [
+            "2208_IM-0815-1001.dcm.png",
+            "2208_IM-0815-1002.dcm.png"
+        ],
+        "report": "stable cardiomegaly without acute abnormality."
+    },
+    {
+        "id": "2351",
+        "image_path": [
+            "2351_IM-0917-1001.dcm.png",
+            "2351_IM-0917-3001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease."
+    },
+    {
+        "id": "2982",
+        "image_path": [
+            "2982_IM-1371-1001.dcm.png",
+            "2982_IM-1371-2001.dcm.png"
+        ],
+        "report": "no acute disease."
+    },
+    {
+        "id": "152",
+        "image_path": [
+            "152_IM-0335-2001.dcm.png",
+            "152_IM-0335-1001.dcm.png"
+        ],
+        "report": "no acute findings."
+    },
+    {
+        "id": "1149",
+        "image_path": [
+            "1149_IM-0101-1001.dcm.png",
+            "1149_IM-0101-2001.dcm.png"
+        ],
+        "report": "1. no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "1438",
+        "image_path": [
+            "1438_IM-0282-1002.dcm.png",
+            "1438_IM-0282-1003.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality. specifically, no evidence of active tuberculous process."
+    },
+    {
+        "id": "349",
+        "image_path": [
+            "349_IM-1697-1001.dcm.png",
+            "349_IM-1697-2001.dcm.png"
+        ],
+        "report": "1. cardiomegaly"
+    },
+    {
+        "id": "514",
+        "image_path": [
+            "514_IM-2129-2001.dcm.png",
+            "514_IM-2129-1001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary findings."
+    },
+    {
+        "id": "2117",
+        "image_path": [
+            "2117_IM-0745-1001.dcm.png",
+            "2117_IM-0745-2001.dcm.png"
+        ],
+        "report": "stable appearance of chest without active process evident and without evidence of progression of disease in patient with history of hodgkin s lymphoma. if one would like to discuss this case further, please. at. thanks."
+    },
+    {
+        "id": "2710",
+        "image_path": [
+            "2710_IM-1177-1001.dcm.png",
+            "2710_IM-1177-2001.dcm.png"
+        ],
+        "report": "1. no acute radiographic cardiopulmonary process."
+    },
+    {
+        "id": "992",
+        "image_path": [
+            "992_IM-2477-0001-0002.dcm.png",
+            "992_IM-2477-0001-0001.dcm.png"
+        ],
+        "report": "1. bilateral pulmonary nodules suggesting pulmonary metastases 2. right internal jugular central catheter, the distal tip in the right atrium."
+    },
+    {
+        "id": "1707",
+        "image_path": [
+            "1707_IM-0466-1001.dcm.png",
+            "1707_IM-0466-2001.dcm.png"
+        ],
+        "report": "no acute or active cardiac, pulmonary or pleural disease."
+    },
+    {
+        "id": "715",
+        "image_path": [
+            "715_IM-2277-2001.dcm.png",
+            "715_IM-2277-3001.dcm.png"
+        ],
+        "report": "chronic asymmetric elevation of the right hemidiaphragm with mildly increased right basilar airspace disease, atelectasis versus infiltrate.."
+    },
+    {
+        "id": "2974",
+        "image_path": [
+            "2974_IM-1364-1001.dcm.png",
+            "2974_IM-1364-2001.dcm.png"
+        ],
+        "report": "1. small left basilar parenchymal scarring and/or effusion. 2. postsurgical changes of the mediastinum. 3. otherwise unremarkable chest radiograph."
+    },
+    {
+        "id": "2389",
+        "image_path": [
+            "2389_IM-0944-1001.dcm.png",
+            "2389_IM-0944-3001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality identified."
+    },
+    {
+        "id": "3423",
+        "image_path": [
+            "3423_IM-1656-1001.dcm.png",
+            "3423_IM-1656-2001.dcm.png"
+        ],
+        "report": "tortuous aorta, otherwise unremarkable exam."
+    },
+    {
+        "id": "2243",
+        "image_path": [
+            "2243_IM-0840-1001.dcm.png",
+            "2243_IM-0840-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormality."
+    },
+    {
+        "id": "2019",
+        "image_path": [
+            "2019_IM-0666-1001.dcm.png",
+            "2019_IM-0666-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary abnormalities."
+    },
+    {
+        "id": "856",
+        "image_path": [
+            "856_IM-2377-1001.dcm.png",
+            "856_IM-2377-2001.dcm.png"
+        ],
+        "report": "1. stable mild cardiomegaly. 2. no evidence of active cardiopulmonary disease."
+    },
+    {
+        "id": "1415",
+        "image_path": [
+            "1415_IM-0264-1001.dcm.png",
+            "1415_IM-0264-2001.dcm.png"
+        ],
+        "report": "normal chest"
+    },
+    {
+        "id": "2555",
+        "image_path": [
+            "2555_IM-1060-1001.dcm.png",
+            "2555_IM-1060-2001.dcm.png"
+        ],
+        "report": "no acute abnormality.."
+    },
+    {
+        "id": "3349",
+        "image_path": [
+            "3349_IM-1606-1001.dcm.png",
+            "3349_IM-1606-3003.dcm.png"
+        ],
+        "report": "1. hyperexpanded lungs consistent with emphysema. 2. pectus carinatum. 3. no evidence of acute disease."
+    },
+    {
+        "id": "491",
+        "image_path": [
+            "491_IM-2111-1001.dcm.png",
+            "491_IM-2111-2001.dcm.png"
+        ],
+        "report": "improving lung volumes with bibasilar atelectasis."
+    },
+    {
+        "id": "3301",
+        "image_path": [
+            "3301_IM-1579-1001.dcm.png",
+            "3301_IM-1579-2001.dcm.png"
+        ],
+        "report": "1. no acute radiographic cardiopulmonary process."
+    },
+    {
+        "id": "1055",
+        "image_path": [
+            "1055_IM-0040-1001.dcm.png",
+            "1055_IM-0040-2001.dcm.png"
+        ],
+        "report": "no acute cardiopulmonary disease."
+    },
+    {
+        "id": "3498",
+        "image_path": [
+            "3498_IM-1702-1001.dcm.png",
+            "3498_IM-1702-2001.dcm.png"
+        ],
+        "report": "1. chest. right 4th rib fracture. no cardiopulmonary injury. no pleural air collection. 2. right shoulder negative. 3. right humerus negative."
+    }
+]

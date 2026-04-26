@@ -23,3 +23,4 @@ A0_Ablation/results/iu_xray_test/
 
 R2GenCMN/results/
 R2GenCMN/models/
+R2GenCMN/chexbert.pth
