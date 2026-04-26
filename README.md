@@ -193,27 +193,41 @@ The experimental results show that RRGE-RAG achieves competitive performance acr
 The ablation study shows that retrieval contributes positively to report generation quality, while multimodal fusion remains challenging. The uncertainty evaluation also indicates that calibration and confidence estimation are important areas for future improvement.
 
 
-``` text
+## Project Structure
+
+```text
 NLU-Project-Wave2Vec/
 │
-├── App/                    # Application files
-│   ├── backend/             # Backend implementation
-│   ├── frontend/            # Frontend implementation
-│   └── docs/                # Application documentation
+├── A0_Ablation/                 # Ablation experiment files for the image-only baseline
 │
-├── Dataset/                # Dataset-related files and preprocessing resources
-├── Literature Review/      # Related work and literature review materials
-├── Outputs/                # Generated outputs and experimental results
-├── Progress/               # Progress report materials
-├── R2Gen/                  # R2Gen baseline and model implementation
-│   ├── modules/             # Model modules
-│   └── main.py              # Main training/evaluation script
+├── App/                         # Web application for radiology report generation
+│   ├── backend/                  # Backend API and model-serving logic
+│   ├── frontend/                 # Frontend user interface
+│   └── docs/                     # Application documentation
 │
-├── Report/                 # Final report files
-├── figure/                 # Figures and diagrams
-├── notebook/               # Jupyter notebooks for experiments
-├── .gitignore
-└── README.md
+├── Dataset/                     # Dataset files, preprocessing resources, and metadata
+│
+├── Litereture Review/           # Literature review materials and related research papers
+│
+├── Outputs/                     # Generated reports, predictions, and evaluation outputs
+│
+├── Progress/                    # Progress report and intermediate project documents
+│
+├── R2Gen/                       # R2Gen baseline implementation
+│   ├── modules/                  # Model architecture and training modules
+│   └── main.py                   # Main training and evaluation script
+│
+├── R2GenCMN/                    # R2GenCMN baseline implementation
+│
+├── Report/                      # Final report, academic writing, and documentation files
+│
+├── figure/                      # Figures, diagrams, result charts, and visualizations
+│
+├── notebook/                    # Jupyter notebooks for experiments and analysis
+│
+├── .gitignore                   # Git ignored files
+├── .DS_Store                    # macOS system file
+└── README.md                    # Main project documentation
 ```
 
 ## How to Run
