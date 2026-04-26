@@ -254,8 +254,9 @@ Step 2: Make sure GitHub Pages is enabled for the repository
 Step 3: Open the frontend using the GitHub Pages link
 
 Step 4: Upload X-ray images and click Generate Report
-
 ```
+
+Presentation: https://www.youtube.com/watch?v=EbnuLOI6zK4 
 
 ## Authors
  - Vibolrottana Seng (st126425)
