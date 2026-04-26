@@ -198,7 +198,7 @@ The ablation study shows that retrieval contributes positively to report generat
 ```text
 NLU-Project-Wave2Vec/
 │
-├── A0_Ablation/                 # Ablation experiment files for the image-only baseline
+├── A1_Ablation/                 # Ablation experiment files for the text-only baseline
 │
 ├── App/                         # Web application for radiology report generation
 │   ├── backend/                  # Backend API and model-serving logic
